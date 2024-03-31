@@ -10,6 +10,7 @@ import json
 MULTI_CHOICE_PROMPT = "Answer with the option letter from the given choices directly."
 FREE_FORM_PROMPT = "Answer the question using a single word or phrase."
 FREE_FORM_PROMPT_QUAC = "Answer the question using a short excerpt (span) from the given text."
+FREE_FORM_PROMPT_BBH = "Answer the question with a single word or phrase. When there are options contained in the question, answer with the option or option letter directly."
 
 def parse_options(options):
     option_letters = [chr(ord("A") + i) for i in range(len(options))]
@@ -26,6 +27,8 @@ def construct_prompt_freeform(entry):
     prompt = entry["prompt"]
     if entry["benchmark_name"] == "QuAc":
         prompt = f"{prompt}\n{FREE_FORM_PROMPT_QUAC}"
+    elif entry["benchmark_name"] == "BBH":
+        prompt = f"{prompt}\n{FREE_FORM_PROMPT_BBH}"
     else:
         prompt = f"{prompt}\n{FREE_FORM_PROMPT}"
     return prompt
