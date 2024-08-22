@@ -1,0 +1,702 @@
+{
+    "1": {
+        "image_id": "7.jpg",
+        "task description": "Paint an object with blue color to resemble a blueberry.",
+        "allowed actions": "[PickupObject], [PutObject], [Navigation], [OpenContainer], [CloseContainer], [SelectPaintTool], [MixColor], [ApplyPaint], [CleanBrush], [InspectObject], [DryObject]",
+        "already executed steps": "[Navigation] <paint station>, [SelectPaintTool] <brush>, [MixColor] <blue paint>, [ApplyPaint] <object>",
+        "target": "[InspectObject] <object>, [DryObject] <object>"
+    },
+    "2": {
+        "image_id": "18.jpg",
+        "task description": "Analyze the displayed X-ray image by identifying and logging the visible features using the provided software.",
+        "allowed actions": "[Navigate], [Click], [ReadText], [InputText], [OpenMenu], [SelectOption], [LoadImage], [AnalyzeImage], [LogFeature], [SaveData], [ToggleSwitch], [CloseApplication]",
+        "already executed steps": "[Navigate] <X-ray image software>, [ReadText] <software menu>, [OpenMenu] <File>, [SelectOption] <Open Image>, [LoadImage] <X-ray image>, [AnalyzeImage] <X-ray image>",
+        "target": "[LogFeature] <visible features>, [SaveData] <logged features>, [CloseApplication] <X-ray image software>"
+    },
+    "3": {
+        "image_id": "5.jpg",
+        "task description": "Prepare the AED for use by attaching the electrode pads onto the patient's chest and connect the pads to the AED.",
+        "allowed actions": "[Navigate], [UnpackObject], [IdentifyObject], [PickupObject], [PlaceObject], [ConnectObject], [ActivateObject], [MonitorVitalSigns], [Listen], [Speak], [ReadText]",
+        "already executed steps": "[Navigate] <patient>, [IdentifyObject] <AED>, [UnpackObject] <AED>, [PickupObject] <electrode pads>, [PlaceObject] <electrode pads> <patient's chest>",
+        "target": "[ConnectObject] <electrode pads> <AED>, [ActivateObject] <AED>, [MonitorVitalSigns], [ReadText] <AED instructions>, [Listen]"
+    },
+    "4": {
+        "image_id": "2.jpg",
+        "task description": "Navigate to the presentation area and point the remote at the TV to interact with the display.",
+        "allowed actions": "[Navigation], [PointObject], [PressButton], [InteractWithObject], [TurnObjectOn], [TurnObjectOff], [PickupObject], [PutObject], [Speak], [Listen], [ReadText], [AdjustVolume], [ChangeChannel], [ToggleDevice]",
+        "already executed steps": "[Navigation] <presentation area>, [PickupObject] <remote>, [PointObject] <remote> <TV>",
+        "target": "[PressButton] <remote>, [TurnObjectOn] <TV>"
+    },
+    "5": {
+        "image_id": "86.jpg",
+        "task description": "Pick an apple from the plate and place it into the fruit basket.",
+        "allowed actions": "[Navigate], [PickupObject], [PutObject], [OpenObject], [CloseObject], [InspectObject], [DetermineRipeness], [WashObject], [DryObject], [PeelObject], [SliceObject]",
+        "already executed steps": "[Navigate] <plate>, [InspectObject] <apple>",
+        "target": "[PickupObject] <apple>, [Navigate] <fruit basket>, [PutObject] <apple> <fruit basket>"
+    },
+    "6": {
+        "image_id": "10.jpg",
+        "task description": "How to access Notification Settings from the home screen?",
+        "allowed actions": "[Navigate], [Tap], [ReadText], [ScrollDown], [GoBack], [OpenMenu], [CloseMenu], [ToggleSwitch], [WaitForLoad], [ConfirmAction]",
+        "already executed steps": "[Navigate] <Settings>, [ScrollDown]",
+        "target": "[Tap] <Apps & notifications>, [ScrollDown], [ReadText] <Notifications>, [Tap] <Notifications>, [WaitForLoad] <Notification Settings menu>"
+    },
+    "7": {
+        "image_id": "38.jpg",
+        "task description": "Take a photo of the birds sitting on the tree branches.",
+        "allowed actions": "[Navigate], [AdjustCameraSettings], [ZoomIn], [ZoomOut], [Focus], [TakePhoto], [ReviewPhoto], [SavePhoto], [DeletePhoto]",
+        "already executed steps": "[Navigate] <tree>, [AdjustCameraSettings] <camera>",
+        "target": "[ZoomIn] <camera>, [Focus] <birds>, [TakePhoto] <birds>, [ReviewPhoto] <camera>, [SavePhoto] <camera>"
+    },
+    "8": {
+        "image_id": "13.jpg",
+        "task description": "Label the kitchen counters according to their usage.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [ReadText], [WriteText], [OpenDrawer], [CloseDrawer], [IdentifyObject], [StickObject]",
+        "already executed steps": "[Navigate] <kitchen>, [IdentifyObject] <counters>, [OpenDrawer] <label drawer>, [PickupObject] <labels>, [WriteText] <label 'Cutlery'>, [StickObject] <label 'Cutlery'> <drawer>",
+        "target": "[WriteText] <label 'Prep Area'>, [StickObject] <label 'Prep Area'> <counter near stove>, [WriteText] <label 'Cleaning'>, [StickObject] <label 'Cleaning'> <sink counter>, [WriteText] <label 'Appliances'>, [StickObject] <label 'Appliances'> <counter with coffee maker>, [CloseDrawer] <label drawer>"
+    },
+    "9": {
+        "image_id": "42.jpg",
+        "task description": "Illuminate the area using the spotlight of the helicopter to identify any threats.",
+        "allowed actions": "[Navigation], [AimSpotlight], [ToggleSpotlightOn], [ToggleSpotlightOff], [RadioCommunication], [IdentifyThreat], [MonitorThreat], [NavigateHelicopter], [MaintainAltitude], [ReportThreat], [UseCameraZoom]",
+        "already executed steps": "[Navigation] <helicopter>, [RadioCommunication] <base>, [ToggleSpotlightOn]",
+        "target": "[AimSpotlight] <area>, [IdentifyThreat] <area>, [ReportThreat] <base>"
+    },
+    "10": {
+        "image_id": "22.jpg",
+        "task description": "Retrieve the truffles from the bowl, then simulate rolling them into balls.",
+        "allowed actions": "[Navigation], [OpenObject], [CloseObject], [PickupObject], [PutObject], [ManipulateShape], [InspectObject], [CleanUp]",
+        "already executed steps": "[Navigation] <bowl>, [PickupObject] <truffle>, [InspectObject] <truffle>",
+        "target": "[ManipulateShape] <truffle>, [CleanUp] <truffle remnants>"
+    },
+    "11": {
+        "image_id": "12.jpg",
+        "task description": "Identify and sketch the most distinctive fish in the aquarium.",
+        "allowed actions": "[Navigation], [IdentifyObject], [PickupObject], [PutObject], [UseObject], [Draw], [Erase], [Observe], [CompareVisuals], [AdjustPosition], [TakePhoto]",
+        "already executed steps": "[Navigation] <aquarium>, [IdentifyObject] <fish>, [PickupObject] <sketchbook>, [UseObject] <pencil>",
+        "target": "[Observe] <fish>, [CompareVisuals] <fish>, [Draw] <fish>"
+    },
+    "12": {
+        "image_id": "91.jpg",
+        "task description": "Identify and focus on the 'Boost' product from the promotional material in the image.",
+        "allowed actions": "[IdentifyObject], [FocusObject], [ReadText], [Speak], [Listen], [Navigate], [PointToObject], [TakePicture], [OpenApplication], [CloseApplication], [Scroll], [ToggleSwitch], [HighlightText], [ConfirmAction]",
+        "already executed steps": "[IdentifyObject] <promotional material>, [Navigate] <promotional material>",
+        "target": "[ReadText] <Boost>, [FocusObject] <Boost product>, [ConfirmAction] <Boost product>"
+    },
+    "13": {
+        "image_id": "6.jpg",
+        "task description": "Identify and take photos of the figurative sculptures.",
+        "allowed actions": "[Navigate], [AnalyzeImage], [IdentifyObject], [PickUp], [ZoomIn], [Adjust], [TakePhoto], [UploadData], [RecordAudio], [SaveInformation], [SendReport]",
+        "already executed steps": "[IdentifyObject] <figurative sculptures>",
+        "target": "[Navigate] <figurative sculptures>, [PickUp] <camera>, [Adjust] <camera>, [ZoomIn] <camera>, [TakePhoto] <figurative sculptures>"
+    },
+    "14": {
+        "image_id": "62.jpg",
+        "task description": "Pin the note labeled 'WEBSITE MAP' onto the designated location on the board.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [PickObject], [DropObject], [IdentifyObject], [RotateObject], [UseTool], [AttachObject]",
+        "already executed steps": "[IdentifyObject] <note>, [PickupObject] <note>, [Navigation] <board>",
+        "target": "[AttachObject] <note> <board>"
+    },
+    "15": {
+        "image_id": "92.jpg",
+        "task description": "Navigate to the bottom of the online store webpage and subscribe to the newsletter option.",
+        "allowed actions": "[Navigation], [Scroll], [Click], [ReadText], [InputText], [SubmitForm], [OpenLink], [CloseTab], [RefreshPage], [UseKeyboardShortcuts], [ZoomIn], [ZoomOut]",
+        "already executed steps": "[Navigation] <web browser>, [OpenLink] <online store homepage>, [Scroll] <downwards>",
+        "target": "[InputText] <email>, [Click] <subscribe button>"
+    },
+    "16": {
+        "image_id": "63.jpg",
+        "task description": "Find and purchase a wrench.",
+        "allowed actions": "[RecognizeObject], [SelectObject], [DeselectObject], [ConfirmSelection], [Navigate], [ReadText], [ProcessList], [IdentifyObject], [Search], [PickUp], [Transaction]",
+        "already executed steps": "[Search] <wrench>, [IdentifyObject] <wrench>",
+        "target": "[Navigate] <wrench>, [PickUp] <wrench>, [Navigate] <checkout counter>, [PickUp] <cash>, [Transaction] <cash>"
+    },
+    "17": {
+        "image_id": "100.jpg",
+        "task description": "Find a suitable cover that fits the chair and place it on the chair to protect it from dust.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [AdjustObject], [SearchForObject], [InspectObject], [FoldObject], [UnfoldObject], [SmoothOutObject], [LiftObject], [PlaceObjectDown]",
+        "already executed steps": "[Navigation] <storage area>, [SearchForObject] <chair cover>, [PickupObject] <chair cover>, [Navigation] <chair>, [UnfoldObject] <chair cover>",
+        "target": "[Navigation] <chair>, [UnfoldObject] <chair cover>, [AdjustObject] <chair cover> <chair>, [SmoothOutObject] <chair cover>"
+    },
+    "18": {
+        "image_id": "73.jpg",
+        "task description": "Navigate the trail and collect a sample of the local flora.",
+        "allowed actions": "[Navigation], [IdentifyPlant], [CollectSample], [Photograph], [RecordData], [StoreSample], [AvoidObstacle], [UseTool], [LabelSample], [ReturnToStart]",
+        "already executed steps": "[Navigation] <trail entrance>, [IdentifyPlant] <local flora>, [Photograph] <flora>, [RecordData] <flora characteristics>",
+        "target": "[CollectSample] <flora>, [StoreSample] <sample> <container>, [LabelSample] <sample>, [ReturnToStart]"
+    },
+    "19": {
+        "image_id": "71.jpg",
+        "task description": "Navigate to the bus stop and take the next bus.",
+        "allowed actions": "[Navigation], [IdentifyObject], [ReadText], [Wait], [BoardVehicle], [Speak], [Listen], [DetermineTime], [SignalBusDriver], [PayFare], [SitDown], [StandUp]",
+        "already executed steps": "[Navigation] <bus stop>, [IdentifyObject] <bus stop sign>, [ReadText] <bus schedule>",
+        "target": "[Wait] <bus arrival>, [SignalBusDriver] <bus>, [BoardVehicle] <bus>, [PayFare] <bus driver>, [SitDown] <seat>"
+    },
+    "20": {
+        "image_id": "110.jpg",
+        "task description": "Locate the downloaded jpg file and open it with Microsoft Paint.",
+        "allowed actions": "[NavigateFileSystem], [DoubleClick], [RightClick], [SelectOption], [OpenApplication], [SearchFile], [IdentifyObject], [MinimizeWindow], [MaximizeWindow], [CloseWindow], [ResizeWindow], [MoveWindow], [Scroll], [DragAndDrop]",
+        "already executed steps": "[NavigateFileSystem] <Downloads Folder>, [IdentifyObject] <jpg file>",
+        "target": "[RightClick] <jpg file>, [SelectOption] <Open with>, [NavigateFileSystem] <Microsoft Paint>, [DoubleClick] <Microsoft Paint>"
+    },
+    "21": {
+        "image_id": "29.jpg",
+        "task description": "Identify the correct potion from the magician's book and pour it in the cauldron to produce something.",
+        "allowed actions": "[Navigate], [ReadText], [IdentifyObject], [PickupObject], [PutObject], [InteractWithObject], [OpenObject], [CloseObject], [PourLiquid], [StirContents], [ObserveChange]",
+        "already executed steps": "[Navigate] <magician's room>, [ReadText] <book>, [IdentifyObject] <potion bottles>, [PickupObject] <potion bottle>",
+        "target": "[PutObject] <potion bottle> <cauldron stand>, [PourLiquid] <potion bottle> <cauldron>, [StirContents] <cauldron>, [ObserveChange] <cauldron>"
+    },
+    "22": {
+        "image_id": "56.jpg",
+        "task description": "Enable a feature in the Facebook app on the smartphone or skip the setup if preferred.",
+        "allowed actions": "[PickupObject], [NavigateApplication], [Click], [Swipe], [TapObject], [LongPress], [ToggleSwitch], [Scroll], [InputText], [ConfirmAction], [CancelAction], [CloseApplication], [OpenNotifications], [AdjustSettings]",
+        "already executed steps": "[NavigateApplication] <Facebook app>, [TapObject] <Settings>",
+        "target": "[Scroll] <Settings>, [ToggleSwitch] <Feature>, [ConfirmAction]"
+    },
+    "23": {
+        "image_id": "26.jpg",
+        "task description": "Enhance the brightness and contrast of the photo.",
+        "allowed actions": "[OpenApplication], [Click], [Navigation], [SelectMenuOption], [AdjustSlider], [ConfirmAction], [SaveFile], [CloseApplication]",
+        "already executed steps": "[SelectMenuOption] <Adjustments>",
+        "target": "[SelectMenuOption] <Brightness>, [AdjustSlider] <Brightness> <Increase>, [AdjustSlider] <Contrast> <Increase>, [SelectMenuOption] <Contrast>, [AdjustSlider] <Contrast> <Increase>, [ConfirmAction] <Apply>, [SaveFile], [CloseApplication]"
+    },
+    "24": {
+        "image_id": "96.jpg",
+        "task description": "Season the fish on the chopping board with salt and then fillet it.",
+        "allowed actions": "[PickupObject], [PutObject], [Navigate], [InteractWithObject], [ApplyForce], [SliceObject], [SeasonObject], [CleanObject], [ToggleObjectOn], [ToggleObjectOff]",
+        "already executed steps": "[Navigate] <chopping board>",
+        "target": "[PickupObject] <salt>, [SeasonObject] <fish>, [PutObject] <salt>, [PickupObject] <knife>, [SliceObject] <fish>"
+    },
+    "25": {
+        "image_id": "55.jpg",
+        "task description": "Edit the profile to blur out the name and save the changes.",
+        "allowed actions": "[Navigate], [Click], [SelectObject], [ApplyEffect], [SaveChanges], [DeselectObject], [OpenApplication], [CloseApplication], [UndoAction], [RedoAction], [ZoomIn], [ZoomOut]",
+        "already executed steps": "[Navigate] <Profile Page>, [Click] <Edit Profile>",
+        "target": "[ApplyEffect] <Blur> <Name>, [SaveChanges]"
+    },
+    "26": {
+        "image_id": "17.jpg",
+        "task description": "Create a new spreadsheet within the spreadsheet application and ensure it is set to always create a new spreadsheet.",
+        "allowed actions": "[Navigation], [Click], [DoubleClick], [RightClick], [SelectOption], [OpenMenu], [CloseMenu], [Scroll], [InputText], [ReadText], [ConfirmAction], [ToggleSwitch]",
+        "already executed steps": "[Navigation] <spreadsheet application>, [Click] <File menu>, [Click] <New>, [Click] <Spreadsheet>",
+        "target": "[Click] <File menu>, [Click] <Spreadsheet settings>, [ToggleSwitch] <Create a new spreadsheet at start>, [ConfirmAction]"
+    },
+    "27": {
+        "image_id": "105.jpg",
+        "task description": "Apply toothpaste to the toothbrush and simulate brushing teeth with correct technique.",
+        "allowed actions": "[PickupObject], [PutObject], [ApplyObject], [PerformAction], [Navigation], [IdentifyObject], [ReadLabel], [DispenseLiquid]",
+        "already executed steps": "[IdentifyObject] <toothpaste>, [PickupObject] <toothpaste>",
+        "target": "[IdentifyObject] <toothbrush>, [PickupObject] <toothbrush>, [ApplyObject] <toothpaste> <toothbrush>, [PerformAction] <simulate brushing teeth>"
+    },
+    "28": {
+        "image_id": "35.jpg",
+        "task description": "Find a place good for observing the mansion and observe.",
+        "allowed actions": "[Navigation], [Observe], [UseBinoculars], [ReportBack], [Click], [PickupObject], [PutObject], [IdentifyObject], [Listen], [Speak], [TakeScreenshot], [ZoomIn], [ZoomOut]",
+        "already executed steps": "[Navigation] <parking spot>",
+        "target": "[Navigation] <bluff>, [PickupObject] <binoculars>, [UseBinoculars] <mansion area>, [Observe] <mansion area>"
+    },
+    "29": {
+        "image_id": "45.jpg",
+        "task description": "Assist the patient in performing arm stretching exercises safely. Do the same exercise as you see. ",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [HoldObject], [ReleaseObject], [ManipulateLimb], [MonitorVitals], [ProvideFeedback], [RecordProgress], [AdjustSupportEquipment], [PrepareEnvironment], [CleanupEnvironment], [Speak], [Listen]",
+        "already executed steps": "[Navigation] <patient>, [Speak] <patient instructions>, [PrepareEnvironment] <exercise equipment>",
+        "target": "[HoldObject] <patient's left arm>, [ManipulateLimb] <stretching exercise>, [ReleaseObject] <patient's left arm>, [HoldObject] <patient's right arm>, [ManipulateLimb] <stretching exercise>, [ReleaseObject] <patient's right arm>"
+    },
+    "30": {
+        "image_id": "4.jpg",
+        "task description": "Transfer the remaining cookies on the baking sheets to the wire racks to cool down.",
+        "allowed actions": "[Navigate], [PickupObject], [PutObject], [UseTool], [IdentifyObject], [WaitForCooling], [CheckTemperature], [MoveObject], [PerformSafetyCheck]",
+        "already executed steps": "[IdentifyObject] <baking sheets>, [Navigate] <baking sheets>",
+        "target": "[IdentifyObject] <cookies>, [PerformSafetyCheck] <baking sheets>, [UseTool] <spatula> <cookies>, [PickupObject] <cookies>, [Navigate] <wire racks>, [PutObject] <cookies> <wire racks>"
+    },
+    "31": {
+        "image_id": "94.jpg",
+        "task description": "Exit this area.",
+        "allowed actions": "[Navigation], [IdentifyObject], [InteractWithObject], [PickupObject], [PutObject], [Speak], [Listen]",
+        "already executed steps": "[Navigation] <lobby area>, [IdentifyObject] <exit door>",
+        "target": "[Navigation] <exit door>, [InteractWithObject] <exit door>, [Navigation] <outside>"
+    },
+    "32": {
+        "image_id": "40.jpg",
+        "task description": "Turn the flashlight on and off.",
+        "allowed actions": "[PickupObject], [PutObject], [Navigate], [PressButton], [ReleaseButton], [InspectObject], [ToggleObjectOn], [ToggleObjectOff]",
+        "already executed steps": "[Navigate] <Flashlight>",
+        "target": "[ToggleObjectOff] <Flashlight>, [ToggleObjectOn] <Flashlight>, [ToggleObjectOff] <Flashlight>"
+    },
+    "33": {
+        "image_id": "149.jpg",
+        "task description": "Mark the center point of the existing mirror on the wall using a pencil, within 4 feet of the floor.",
+        "allowed actions": "[Navigation], [MeasureDistance], [FindCenter], [MarkObject], [PickupObject], [PutObject], [UseTool], [ReadTool], [InputText], [ConfirmAction]",
+        "already executed steps": "[Navigation] <wall with mirror>",
+        "target": "[MeasureDistance] <mirror edges>, [FindCenter] <mirror>, [PickupObject] <pencil>, [Navigation] <desired marking point>, [MarkObject] <center of mirror>"
+    },
+    "34": {
+        "image_id": "16.jpg",
+        "task description": "Finished this process.",
+        "allowed actions": "[Navigate], [Click], [InputText], [Scroll], [ConfirmAction], [Select], [ReadText], [IdentifyObject], [InputCredentials], [SubmitForm]",
+        "already executed steps": "[Navigate] <SubscriptionForm>",
+        "target": "[Click] <Input Field 1>, [InputText] <First name>, [Click] <Input Field 2>, [InputText] <Last name>, [Click] <Input Field 3>, [InputText] <Email>, [Click] <Input Field 4>, [InputText] <Phone>, [Click] <Input Field 5>, [InputText] <Location>, [Click] <human verification>, [Select] <terms and conditions>, [ConfirmAction] <Confirmation button>"
+    },
+    "35": {
+        "image_id": "93.jpg",
+        "task description": "Assist the children in finding and opening an educational application on the tablet for additional learning exercises.",
+        "allowed actions": "[Navigation], [PickUp], [InputText], [Scroll], [Click], [OpenApplication], [CloseApplication], [Tap], [Swipe], [Speak], [Listen], [ConfirmAction], [SelectOption], [IdentifyObject]",
+        "already executed steps": "[Navigation] <children>, [Speak] <children>",
+        "target": "[PickUp] <tablet>, [Swipe] <tablet>, [IdentifyObject] <educational application>, [Tap] <educational application>"
+    },
+    "36": {
+        "image_id": "27.jpg",
+        "task description": "Clear the presentation slide of the bubble diagram overlay.",
+        "allowed actions": "[IdentifyObject], [Click], [SelectText], [DeleteObject], [ToggleTool], [UndoAction], [RedoAction], [SaveDocument], [OpenMenu], [CloseApplication], [Navigation], [Scroll]",
+        "already executed steps": "[IdentifyObject] <bubble diagram>, [SelectText] <bubble diagram>",
+        "target": "[DeleteObject] <bubble diagram>, [SaveDocument] <presentation>"
+    },
+    "37": {
+        "image_id": "11.jpg",
+        "task description": "Secure the bank vault area by checking the vault door, lock it, and report the status.",
+        "allowed actions": "[Navigate], [CheckLock], [LockObject], [UnlockObject], [ReportStatus], [UseKey], [UseKeypad], [CloseObject], [OpenObject], [NotifySecurity]",
+        "already executed steps": "[Navigate] <bank vault area>",
+        "target": "[CheckLock] <vault door>, [CloseObject] <vault door>, [LockObject] <vault door>, [UseKeypad] <vault door>, [ReportStatus] <security>, [NotifySecurity] <vault door status>"
+    },
+    "38": {
+        "image_id": "145.jpg",
+        "task description": "Identify and highlight the Kitchen text on the floor plan in the application.",
+        "allowed actions": "[Navigate], [ZoomIn], [ZoomOut], [Scroll], [Click], [IdentifyObject], [DoubleClick], [Drag], [Drop], [HighlightText], [OpenFile], [CloseFile], [Undo], [Redo], [Select], [SaveFile]",
+        "already executed steps": "[OpenFile] <floor plan>, [Scroll] <floor plan>, [ZoomIn] <floor plan>",
+        "target": "[IdentifyObject] <Kitchen>, [Select] <text highlight tool>, [HighlightText] <Kitchen>"
+    },
+    "39": {
+        "image_id": "111.jpg",
+        "task description": "Collect the reward and share your game score.",
+        "allowed actions": "[Click], [DragObject], [ReleaseObject], [NavigateMenu], [InteractWithObject], [ReadText], [ConfirmAction], [Scroll], [OpenApplication], [CloseApplication]",
+        "already executed steps": "[NavigateMenu] <game completion screen>, [ReadText] <Level 4 completion confirmation>, [InteractWithObject] <reward button>",
+        "target": "[ConfirmAction] <Play button>, [Click] <Share button>"
+    },
+    "40": {
+        "image_id": "28.jpg",
+        "task description": "Interact with the on-screen elements of the displayed website using the cursor.",
+        "allowed actions": "[MoveCursor], [LeftClick], [RightClick], [Scroll], [ReadText], [Navigation], [Wait], [RefreshPage], [OpenLink], [CloseTab], [ZoomIn], [ZoomOut], [Repeat]",
+        "already executed steps": "[MoveCursor] <website screen>, [ReadText] <website content>",
+        "target": "[MoveCursor] <interactive element>, [LeftClick] <interactive element>, [Repeat]"
+    },
+    "41": {
+        "image_id": "90.jpg",
+        "task description": "Read the text on the t-shirt and recite it out loud.",
+        "allowed actions": "[Navigation], [ApproachPerson], [FocusOnObject], [ReadText], [Speak], [Listen], [MoveAway], [ConfirmUnderstanding]",
+        "already executed steps": "[Navigation] <person>, [ApproachPerson] <person>, [FocusOnObject] <t-shirt>",
+        "target": "[ReadText] <t-shirt>, [Speak] <text>, [ConfirmUnderstanding] <person>, [MoveAway] <person>"
+    },
+    "42": {
+        "image_id": "147.jpg",
+        "task description": "Encrypt sensitive files on the laptop for security.",
+        "allowed actions": "[OpenApplication], [NavigateFileSystem], [SelectFile], [RightClick], [ChooseOption], [EnterPassword], [ConfirmAction], [CloseApplication], [OpenEmailClient], [ComposeEmail], [AttachFile], [SendEmail], [ReceiveEmail], [ReadEmail], [ReplyEmail], [DeleteEmail], [Logout]",
+        "already executed steps": "[NavigateFileSystem] <SensitiveFiles>, [SelectFile] <SensitiveFiles>",
+        "target": "[RightClick] <SelectedFile>, [ChooseOption] <Encrypt>, [EnterPassword] <Encryption>, [ConfirmAction] <Encrypt>, [CloseApplication] <EncryptionSoftware>"
+    },
+    "43": {
+        "image_id": "15.jpg",
+        "task description": "Add a pointer with text illustration to the rectangle made of pixels, which correlates with the slide title.",
+        "allowed actions": "[Navigate], [ReadText], [IdentifyObject], [AnalyzePattern], [AddPointer], [AddTextLabel]",
+        "already executed steps": "[Navigate] <Graphical User Interface slide>, [ReadText] <Slide Title>",
+        "target": "[AnalyzePattern] <pixel representation of rectangle>, [AddPointer] <pixel representation of rectangle>, [AddTextLabel] <pointer>"
+    },
+    "44": {
+        "image_id": "101.jpg",
+        "task description": "Identify the post by the author Lani Sarem on social media and like it, then share it on your page.",
+        "allowed actions": "[Navigate], [IdentifyObject], [Click], [InputText], [Scroll], [OpenApplication], [CloseApplication], [ToggleSwitch], [ConfirmAction], [Copy], [Paste], [ShareObject], [SwitchTab], [InteractWithObject]",
+        "already executed steps": "[Navigate] <social media>, [IdentifyObject] <author's post>, [Click] <like button>",
+        "target": "[Click] <share button>, [InputText] <message>, [Click] <share now>"
+    },
+    "45": {
+        "image_id": "78.jpg",
+        "task description": "Analyze the 3D puzzle structure and identify the number of visible pieces.",
+        "allowed actions": "[Navigate], [ZoomIn], [ZoomOut], [RotateObject], [Count], [IdentifyShape], [IdentifyColor], [Compare], [EstimateSize], [RecordInformation], [ReportResults]",
+        "already executed steps": "[Navigate] <around the 3D puzzle>, [ZoomIn] <3D puzzle>",
+        "target": "[IdentifyShape] <puzzle pieces>, [IdentifyColor] <puzzle colors>, [Count] <visible puzzle pieces>"
+    },
+    "46": {
+        "image_id": "148.jpg",
+        "task description": "Connect the icons representing the AI and robotics domains and remove the other icons.",
+        "allowed actions": "[IdentifyObject], [Navigation], [Remove], [Click], [Drag], [DrawLine], [ZoomIn], [ZoomOut], [ToggleLayer], [SaveDocument], [OpenDocument]",
+        "already executed steps": "[IdentifyObject] <AI icon>, [IdentifyObject] <Robotics icon>",
+        "target": "[DrawLine] <AI icon> <Robotics icon>, [Remove] <other icons>, [Remove] <other connections>"
+    },
+    "47": {
+        "image_id": "80.jpg",
+        "task description": "Identify and bring the files starting with '101' to the nurse's station for organization.",
+        "allowed actions": "[Navigation], [IdentifyObject], [PickupObject], [PutObject], [InteractWithPerson], [Speak], [Listen], [OpenDrawer], [CloseDrawer], [ReadLabel], [ScanObject]",
+        "already executed steps": "[Navigation] <counter>, [Speak] <staff>, [Listen] <staff>",
+        "target": "[IdentifyObject] <medical files>, [PickupObject] <medical files>, [Navigation] <nurse's station>, [PutObject] <medical files> <nurse's station>"
+    },
+    "48": {
+        "image_id": "67.jpg",
+        "task description": "Place cookie dough portions on the baking sheet with adequate spacing.",
+        "allowed actions": "[PickupObject], [PutObject], [MeasureQuantity], [Navigation], [UseTool], [CheckSpace], [EstimateSize], [ConfirmTaskCompletion], [ArrangeObjects]",
+        "already executed steps": "[Navigation] <dough>, [PickupObject] <dough>",
+        "target": "[Navigation] <baking sheet>, [PutObject] <dough> <baking sheet>, [ArrangeObjects] <dough> <baking sheet>"
+    },
+    "49": {
+        "image_id": "98.jpg",
+        "task description": "Locate the advertisement title and replace it with an appropriate image in a publication layout software.",
+        "allowed actions": "[Navigation], [Click], [Drag], [open], [Drop], [SelectObject], [FindReplace], [UploadImage], [ResizeObject], [ManipulateGraphic], [IdentifyObject], [OpenApplication], [CloseApplication], [SaveDocument], [AdjustSettings], [UseTool]",
+        "already executed steps": "[OpenApplication] <Publication Layout Software>, [Click] <menu>, [open] <advertisement file>",
+        "target": "[IdentifyObject] <advertisement title>, [FindReplace] <appropriate image>, [UploadImage] <appropriate image>, [ResizeObject] <appropriate image>, [SaveDocument] <Publication Layout>, [CloseApplication] <Publication Layout Software>"
+    },
+    "50": {
+        "image_id": "24.jpg",
+        "task description": "Ascend the staircase to the second floor and locate the restroom as indicated by signage.",
+        "allowed actions": "[Navigate], [ClimbStairs], [ReadSignage], [OpenDoor], [CloseDoor], [IdentifyObject]",
+        "already executed steps": "[Navigate] <lobby>, [IdentifyObject] <stairs>, [ClimbStairs] <stairs>",
+        "target": "[ReadSignage] <restroom sign>, [IdentifyObject] <restroom door>, [Navigate] <restroom door>"
+    },
+    "51": {
+        "image_id": "49.jpg",
+        "task description": "Set up the TV to display the computer screen using a preferred screen mirroring method.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [ConfigureDeviceSettings], [SelectOption], [ToggleSwitch], [ConnectCable], [UseRemoteControl], [AccessMenu], [ActivateScreenMirroring], [ConfirmAction], [ReadText]",
+        "already executed steps": "[Navigation] <computer>, [PickupObject] <computer>, [PickupObject] <HDMI cable>, [Navigation] <TV>",
+        "target": "[PutObject] <HDMI cable> <TV>, [ConnectCable] <HDMI cable> <computer>, [UseRemoteControl] <TV>, [AccessMenu] <TV>, [SelectOption] <HDMI input>, [ConfirmAction] <TV>"
+    },
+    "52": {
+        "image_id": "143.jpg",
+        "task description": "Identify the fresco of the Holy Family and describe its features to the audiences and make sure they understand.",
+        "allowed actions": "[Navigation], [IdentifyObject], [DescribeObject], [TakePhoto], [AnalyzeImage], [Report], [AccessInformation], [Speak], [Listen], [ConfirmUnderstanding]",
+        "already executed steps": "[Navigation] <fresco>",
+        "target": "[IdentifyObject] <fresco>, [DescribeObject] <fresco>, [Speak] <audience>, [Listen] <audience>, [ConfirmUnderstanding] <audience>"
+    },
+    "53": {
+        "image_id": "21.jpg",
+        "task description": "Navigate to the pointed folder and delete the items inside.",
+        "allowed actions": "[OpenApplication], [Navigate], [Click], [RightClick], [Select], [DoubleClick], [Scroll], [ReadText], [InputText], [CloseApplication], [IdentifyObject], [ToggleSwitch], [ConfirmAction]",
+        "already executed steps": "[IdentifyObject] <target folder>, [DoubleClick] <target folder>",
+        "target": "[Select] <all>, [RightClick] <selected files>, [Click] <delete>, [ConfirmAction] <delete>"
+    },
+    "54": {
+        "image_id": "127.jpg",
+        "task description": "Assist the pedestrian to safely cross the street.",
+        "allowed actions": "[Navigation], [IdentifyObject], [AnalyzeEnvironment], [PredictPath], [SignalIntent], [Wait], [Proceed], [MonitorSafety], [ReportStatus], [Help]",
+        "already executed steps": "[IdentifyObject] <pedestrian>, [AnalyzeEnvironment] <street>",
+        "target": "[Navigation] <pedestrian>, [Wait], [Help] <pedestrian>, [MonitorSafety] <street>, [Proceed] <crosswalk>"
+    },
+    "55": {
+        "image_id": "8.jpg",
+        "task description": "Prepare a baking tray and pipe the cookie dough into a nest shape on it.",
+        "allowed actions": "[PickupObject], [PutObject], [OpenObject], [CloseObject], [Navigation], [Mix], [TransferLiquid], [MeasureQuantity], [UseAppliance], [ShapeDough], [Bake]",
+        "already executed steps": "[Navigation] <baking area>, [PickupObject] <baking tray>, [PutObject] <baking tray> <table>",
+        "target": "[Navigation] <cookie dough>, [PickupObject] <cookie dough>, [ShapeDough] <cookie dough> <nest shape>, [PutObject] <shaped cookie dough> <baking tray>"
+    },
+    "56": {
+        "image_id": "119.jpg",
+        "task description": "Adjust the audio mixer to optimize sound levels.",
+        "allowed actions": "[Navigation], [IdentifyObject], [ReadLabel], [Listen], [EvaluateSoundQuality], [ToggleSwitch], [Compare], [RecordSetting], [ConfirmAction], [TryCombinations]",
+        "already executed steps": "[IdentifyObject] <audio mixer>",
+        "target": "[ReadLabel] <volume sliders>, [TryCombinations] <volume sliders>, [EvaluateSoundQuality], [ToggleSwitch] <equalizer>"
+    },
+    "57": {
+        "image_id": "70.jpg",
+        "task description": "Identify the gaming console and insert the charging cable into it.",
+        "allowed actions": "[IdentifyObject], [PickupObject], [InsertObject], [Navigate], [ConnectDevice], [CheckConnection], [PressButton], [PluginCable], [DetachCable], [HoldObject], [ReleaseObject], [AlignObject]",
+        "already executed steps": "[IdentifyObject] <gaming console>",
+        "target": "[Navigate] <gaming console>, [PickupObject] <charging cable>, [AlignObject] <charging cable> <gaming console charging port>, [InsertObject] <charging cable> <gaming console charging port>, [CheckConnection]"
+    },
+    "58": {
+        "image_id": "51.jpg",
+        "task description": "Open the App Store, navigate to the account profile, and check for pending updates.",
+        "allowed actions": "[Navigate], [Click], [Swipe], [ReadText], [Scroll], [OpenApp], [CloseApp], [Select], [WaitForLoad], [IdentifyObject]",
+        "already executed steps": "[Navigate] <Home Screen>, [Click] <App Store>",
+        "target": "[WaitForLoad] <App Store>, [Click] <account profile>, [ReadText] <pending updates>"
+    },
+    "59": {
+        "image_id": "104.jpg",
+        "task description": "Inspect the mechanical watch mechanism and verify its functionality.",
+        "allowed actions": "[Navigation], [InspectObject], [PickupObject], [PutObject], [OpenObject], [CloseObject], [Listen], [ReportStatus], [ReadGauges], [AdjustObject], [UseTool]",
+        "already executed steps": "[Navigation] <mechanical watch mechanism>, [InspectObject] <gears>, [Listen] <ticking sound>",
+        "target": "[ReadGauges] <watch mechanism>, [AdjustObject] <watch hands>, [InspectObject] <spring>, [Listen] <ticking sound>, [ReportStatus] <mechanical watch functionality>"
+    },
+    "60": {
+        "image_id": "133.jpg",
+        "task description": "Observe the architectural plan and highlight the control pannel area.",
+        "allowed actions": "[Navigate], [IdentifyObject], [ReadText], [HighlightText], [ZoomIn], [ZoomOut], [ScrollUp], [ScrollDown], [ScrollLeft], [ScrollRight], [OpenMenu], [SelectText], [SearchObject], [DeselectText], [IdentifyObject], [HighlightObject], [CloseMenu]",
+        "already executed steps": "[Navigate] <Architectural plan>",
+        "target": "[ZoomIn] <full plan view>, [ReadText] <annotations>, [SearchObject] <control pannel>, [IdentifyObject] <control pannel>, [HighlightObject] <control pannel>"
+    },
+    "61": {
+        "image_id": "85.jpg",
+        "task description": "Direct the traffic to the right lane for an upcoming checkpoint.",
+        "allowed actions": "[Navigate], [SignalDirection], [Speak], [Listen], [InteractWithObject], [HoldSign], [WearEquipment], [StandBy]",
+        "already executed steps": "[Navigate] <checkpoint area>, [WearEquipment] <safety vest>, [HoldSign] <direction>",
+        "target": "[SignalDirection] <right lane>, [StandBy] <checkpoint area>, [Speak] <drivers>, [Listen] <drivers>"
+    },
+    "62": {
+        "image_id": "50.jpg",
+        "task description": "Identify the lower body tube of the rocket model and insert fins into the notches.",
+        "allowed actions": "[IdentifyObject], [Navigate], [PickupObject], [AlignObject], [InsertObject], [SimulateAction], [PointAtObject]",
+        "already executed steps": "[IdentifyObject] <lower body tube>",
+        "target": "[PickupObject] <lower body tube>, [PickupObject] <fins>, [AlignObject] <fins> <lower body tube>, [InsertObject] <fins> <notches>"
+    },
+    "63": {
+        "image_id": "140.jpg",
+        "task description": "Configure the simulation parameters on the CAD software according to the project requirements.",
+        "allowed actions": "[Navigate], [NavigateMenu], [SelectOption], [InputText], [ClickButton], [ToggleSwitch], [ConfirmAction], [CancelAction], [ReadText], [ZoomIn], [ZoomOut], [PanView], [RotateView], [OpenFile], [SaveFile], [CloseApplication]",
+        "already executed steps": "[Navigate] <Computer>, [OpenFile] <CAD software>, [ReadText] <simulation parameters>, [NavigateMenu] <settings>, [SelectOption] <simulation configuration>",
+        "target": "[InputText] <required parameter values>, [ConfirmAction], [SaveFile] <project>, [CloseApplication] <CAD software>"
+    },
+    "64": {
+        "image_id": "139.jpg",
+        "task description": "Navigate to the building entrance and locate the directory or information kiosk.",
+        "allowed actions": "[Navigate], [IdentifyObject], [ReadText], [InteractWithObject], [Speak], [Listen], [PickupObject], [PutObject]",
+        "already executed steps": "[Navigate] <building entrance>",
+        "target": "[IdentifyObject] <directory or information kiosk>, [Navigate] <directory or information kiosk>, [ReadText] <directory or information kiosk>"
+    },
+    "65": {
+        "image_id": "142.jpg",
+        "task description": "Identify the main entrance of the building and navigate towards it.",
+        "allowed actions": "[Navigation], [IdentifyObject], [EnterBuilding], [UseElevator], [ExitBuilding], [ReadSign], [InteractWithPerson], [ObserveEnvironment], [TakePicture]",
+        "already executed steps": "[IdentifyObject] <building>, [Navigation] <sidewalk>, [ObserveEnvironment] <surroundings>",
+        "target": "[ReadSign] <entrance sign>, [Navigation] <main entrance>, [EnterBuilding] <main entrance>"
+    },
+    "66": {
+        "image_id": "102.jpg",
+        "task description": "Assess the mask displayed and report on its condition.",
+        "allowed actions": "[ApproachObject], [Observe], [ReportStatus], [PhotographObject], [UseMeasurementTool], [InputText], [Navigation], [IdentifyObject], [UseLighting]",
+        "already executed steps": "[Navigation] <mask>, [ApproachObject] <mask>, [Observe] <mask>",
+        "target": "[UseLighting] <mask>, [UseMeasurementTool] <mask>, [PhotographObject] <mask>, [ReportStatus] <mask>"
+    },
+    "67": {
+        "image_id": "3.jpg",
+        "task description": "Adjust the vehicle's navigation system to the desired destination.",
+        "allowed actions": "[Navigation], [Click], [InputText], [ToggleSwitch], [ConfirmAction], [ReadText], [Scroll], [OpenApplication], [CloseApplication], [Adjust], [Listen], [Speak]",
+        "already executed steps": "[Navigation] <driver's seat>, [Adjust] <seat position>, [Click] <navigation system>",
+        "target": "[InputText] <desired destination>, [ConfirmAction] <navigation system>"
+    },
+    "68": {
+        "image_id": "124.jpg",
+        "task description": "Navigate to the service counter, interact with the chef to order a burger, and observe the cooking process.",
+        "allowed actions": "[Navigate], [InteractWithPerson], [Observe], [IdentifyObject], [Speak], [Listen], [Pay], [PickupObject], [PutObject], [Wait]",
+        "already executed steps": "[Navigate] <service counter>, [IdentifyObject] <chef>",
+        "target": "[Speak] <chef>, [Pay] <currency>, [Observe] <chef>, [Wait], [PickupObject] <burger>"
+    },
+    "69": {
+        "image_id": "19.jpg",
+        "task description": "Identify the ground wires, twist them together, and secure them to the green screw on the installed light switch.",
+        "allowed actions": "[IdentifyObject], [GraspObject], [TwistObject], [Navigate], [AlignObject], [SecureObject], [UseTool], [ReleaseObject], [InspectObject], [ApplyForce]",
+        "already executed steps": "[IdentifyObject] <ground wires>, [GraspObject] <ground wires>, [TwistObject] <ground wires>",
+        "target": "[AlignObject] <twisted ground wires> <green screw>, [SecureObject] <twisted ground wires> <green screw>, [ReleaseObject] <twisted ground wires>, [InspectObject] <secured ground wires>"
+    },
+    "70": {
+        "image_id": "83.jpg",
+        "task description": "Navigate to the Kindle section on the Amazon webpage and select the Kindle 3G product.",
+        "allowed actions": "[Navigate], [Click], [Scroll], [ReadText], [IdentifyObject], [AddToCart], [ViewCart], [ProceedToCheckout], [EnterCredentials], [ConfirmAction], [SelectOption], [OpenLink], [CloseTab]",
+        "already executed steps": "[Navigate] <Amazon webpage>, [IdentifyObject] <Kindle Store section>",
+        "target": "[Click] <Kindle Store section>, [Scroll] <Kindle Store section>, [Click] <Kindle 3G product>, [AddToCart] <Kindle 3G product>"
+    },
+    "71": {
+        "image_id": "116.jpg",
+        "task description": "Navigate to the center of the construction site and identify what the structure will be.",
+        "allowed actions": "[Navigate], [Observe], [Analyze], [Report], [TakePhoto], [SendInformation], [AccessDatabase], [UseTool], [AvoidObstacle], [Climb], [CrossTerrain], [Measure]",
+        "already executed steps": "[Navigate] <construction site entrance>, [AvoidObstacle] <vehicles>, [CrossTerrain] <uneven ground>",
+        "target": "[Navigate] <center of construction site>, [Observe] <structure foundation>, [Analyze] <construction plans>"
+    },
+    "72": {
+        "image_id": "34.jpg",
+        "task description": "Identify and label the areas of the brain depicted in the image, specifically the cerebrum, diencephalon, brain stem, and cerebellum.",
+        "allowed actions": "[Observe], [IdentifyObject], [ReadText], [ExtractInformation], [InputText], [Label], [NavigateMenu], [OpenApplication], [CloseApplication], [SelectTool], [UseTool], [ConfirmAction]",
+        "already executed steps": "[OpenApplication] <Anatomy Software>, [Observe] <Brain Diagram>",
+        "target": "[IdentifyObject] <cerebrum>, [IdentifyObject] <diencephalon>, [IdentifyObject] <brain stem>, [IdentifyObject] <cerebellum>, [Label] <cerebrum>, [Label] <diencephalon>, [Label] <brain stem>, [Label] <cerebellum>, [ConfirmAction]"
+    },
+    "73": {
+        "image_id": "64.jpg",
+        "task description": "Open the cage and gently transfer the kitten to a transport carrier.",
+        "allowed actions": "[Navigate], [OpenObject], [CloseObject], [PickupObject], [PutObject], [SecureObject], [InteractWithAgent], [Speak], [Listen], [IdentifyObject]",
+        "already executed steps": "[IdentifyObject] <cage>, [IdentifyObject] <kitten>, [Navigate] <cage>, [Speak] <to assure the kitten>",
+        "target": "[OpenObject] <cage>, [PickupObject] <kitten>, [Navigate] <transport carrier>, [PutObject] <kitten> <transport carrier>, [SecureObject] <transport carrier>, [CloseObject] <transport carrier>"
+    },
+    "74": {
+        "image_id": "144.jpg",
+        "task description": "Prepare a meeting area for a group of visitors arriving soon.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [ArrangeFurniture], [CleanObject], [InteractWithDevice], [ReportCompletion], [RetrieveInformation]",
+        "already executed steps": "[Navigation] <meeting area>, [CleanObject] <table>",
+        "target": "[ArrangeFurniture] <chairs>, [InteractWithDevice] <AV equipment>, [PickupObject] <refreshments>, [PutObject] <refreshments> <table>"
+    },
+    "75": {
+        "image_id": "66.jpg",
+        "task description": "Connect the USB drive to the computer and transfer image files to a designated folder.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [ConnectToPC], [TransferFiles], [OpenFolder], [CreateNewFolder], [SelectFiles], [CopyFiles], [PasteFiles], [EjectDevice], [DisconnectDevice], [OrganizeFiles]",
+        "already executed steps": "[PickupObject] <USB drive>, [ConnectToPC] <USB drive>, [OpenFolder] <USB drive>, [SelectFiles] <image files>",
+        "target": "[CopyFiles] <image files>, [Navigate] <designated folder>, [PasteFiles] <image files>, [EjectDevice] <USB drive>, [DisconnectDevice] <USB drive>"
+    },
+    "76": {
+        "image_id": "39.jpg",
+        "task description": "Locate and present the Science Mock Paper to the parents for signatures.",
+        "allowed actions": "[Navigation], [IdentifyObject], [PickupObject], [InteractWithHuman], [RequestAction], [HandOverObject], [ReceiveObject], [ObserveAction], [ConfirmActionTaken]",
+        "already executed steps": "[Navigation] <classroom>, [IdentifyObject] <mock paper>, [PickupObject] <mock paper>",
+        "target": "[Navigation] <parents>, [InteractWithHuman] <parents>, [HandOverObject] <mock paper>, [RequestAction] <signature>, [ObserveAction] <parents signing paper>, [ReceiveObject] <mock paper>, [ConfirmActionTaken] <signature obtained>"
+    },
+    "77": {
+        "image_id": "136.jpg",
+        "task description": "Identify and classify the presented skull specimen.",
+        "allowed actions": "[Navigate], [ViewObject], [ReadText], [IdentifyObject], [ClassifyObject], [RecordData], [ReportFindings], [TakePhoto], [ZoomIn], [ZoomOut]",
+        "already executed steps": "[Navigate] <exhibit room>, [ViewObject] <skull specimen>, [ReadText] <information placard>",
+        "target": "[IdentifyObject] <skull specimen>, [ClassifyObject] <skull specimen>, [RecordData] <skull specimen classification>"
+    },
+    "78": {
+        "image_id": "1.jpg",
+        "task description": "Organize the pantry by placing similar items together and tidy up the area.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [OpenObject], [CloseObject], [CleanSurface], [OrganizeObjects], [InspectObject], [IdentifyObject]",
+        "already executed steps": "[Navigation] <pantry area>",
+        "target": "[IdentifyObject] <jars>, [PickupObject] <jar>, [PutObject] <jar> <shelf>, [OrganizeObjects] <shelves>, [IdentifyObject] <buckets>, [OrganizeObjects] <buckets>"
+    },
+    "79": {
+        "image_id": "95.jpg",
+        "task description": "Analyze the histogram trends and summarize the data changes over the years.",
+        "allowed actions": "[Navigate], [OpenApplication], [Open], [ReadText], [AnalyzeData], [InputText], [TakeScreenshot], [Scroll], [Click], [CloseApplication], [SaveDocument], [CopyText], [PasteText], [HighlightText], [CreateChart]",
+        "already executed steps": "[OpenApplication] <Data Analysis Software>, [Open] <Histogram Data>",
+        "target": "[ReadText] <Histogram>, [AnalyzeData] <Histogram Trends>, [Open] <Summary Document>, [InputText] <Summary Document>, [SaveDocument] <Summary Document>, [CloseApplication] <Data Analysis Software>"
+    },
+    "80": {
+        "image_id": "9.jpg",
+        "task description": "Select a drawing tool and shade in a small oval area to complete the eye on the sketch.",
+        "allowed actions": "[PickupObject], [PutObject], [SelectTool], [ShadeArea], [DetermineShadingIntensity], [PositionTool], [ApplyShade], [EvaluateShading], [AdjustShading], [CleanUp], [Navigation]",
+        "already executed steps": "[Navigation] <sketch>, [SelectTool] <pencil>, [PositionTool] <eye area>",
+        "target": "[ApplyShade] <eye area>, [EvaluateShading] <eye area>, [AdjustShading] <eye area>, [CleanUp] <pencil>"
+    },
+    "81": {
+        "image_id": "99.jpg",
+        "task description": "Read, comprehend, and report the information about forms on the slide.",
+        "allowed actions": "[ReadText], [ComprehendText], [RecallInformation], [GoToNextSlide], [GoToPreviousSlide], [ReportInformation], [WaitForInstructions], [ConfirmUnderstanding]",
+        "already executed steps": "[ReadText] <slide>",
+        "target": "[ComprehendText] <slide>, [ReportInformation] <slide>"
+    },
+    "82": {
+        "image_id": "14.jpg",
+        "task description": "Take a photo of the character besides the exhibition board.",
+        "allowed actions": "[Navigation], [PickupObject], [IdentifyObject], [PutObject], [UseObject], [TakePhoto], [AdjustFocus], [SavePhoto], [ReviewPhoto], [ZoomIn], [ZoomOut], [SwitchMode]",
+        "already executed steps": "[Navigation] <window display>",
+        "target": "[IdentifyObject] <exhibition board>, [IdentifyObject] <character nearby>, [UseObject] <camera>, [AdjustFocus] <camera>, [TakePhoto] <window display>, [ReviewPhoto] <camera>"
+    },
+    "83": {
+        "image_id": "141.jpg",
+        "task description": "Secure the ends of the suspension bridge ropes to the sides of the cliff.",
+        "allowed actions": "[Navigation], [ManipulateObject], [SecureObject], [UnsecureObject], [InspectObject], [Communicate], [UseTool]",
+        "already executed steps": "[Navigation] <cliff edge>, [InspectObject] <suspension bridge ropes>, [Communicate] <team>",
+        "target": "[UseTool] <hammer and nails>, [SecureObject] <suspension bridge ropes> <cliff side>, [Navigate] <opposite cliff edge>, [InspectObject] <suspension bridge ropes>, [UseTool] <hammer and nails>, [SecureObject] <suspension bridge ropes> <opposite cliff side>"
+    },
+    "84": {
+        "image_id": "61.jpg",
+        "task description": "Close the presentation on the screen using the mouse.",
+        "allowed actions": "[Navigation], [MoveCursor], [LeftClick], [RightClick], [DoubleClick], [DragAndDrop], [OpenApplication], [CloseApplication], [Scroll], [ZoomIn], [ZoomOut]",
+        "already executed steps": "[Navigation] <computer>",
+        "target": "[Navigation] <presentation software>, [MoveCursor] <upper-right corner>, [LeftClick] <'X' button>"
+    },
+    "85": {
+        "image_id": "57.jpg",
+        "task description": "Navigate to a position to get the best view of the granite cliff; allow one chance for adjusting the position.",
+        "allowed actions": "[Navigate], [TurnTowards], [TakePhoto], [AdjustFocus], [ZoomIn], [ZoomOut], [PanCamera], [CheckBattery], [StartRecording], [StopRecording], [StoreData], [AnalyzeVisual], [TransmitData]",
+        "already executed steps": "[Navigate] <position 1>, [TurnTowards] <granite cliff>",
+        "target": "[AnalyzeVisual] <granite cliff>, [Navigate] <position 2>, [AdjustFocus] <camera>, [TakePhoto] <granite cliff>"
+    },
+    "86": {
+        "image_id": "150.jpg",
+        "task description": "Change the car's tire with a spare one.",
+        "allowed actions": "[Navigation], [LocateObject], [InspectObject], [DetachObject], [PickupObject], [PutObject], [UseTool], [AlignObject], [SecureObject], [CleanUp], [ReportCompletion]",
+        "already executed steps": "[Navigation] <car>, [LocateObject] <tire>, [InspectObject] <tire>",
+        "target": "[UseTool] <jack>, [AlignObject] <jack> <car>, [UseTool] <jack>, [DetachObject] <tire>, [PickupObject] <tire>, [LocateObject] <spare tire>, [PickupObject] <spare tire>, [AlignObject] <spare tire> <car>, [SecureObject] <spare tire>, [UseTool] <jack>, [CleanUp] <tools and old tire>, [ReportCompletion] <task>"
+    },
+    "87": {
+        "image_id": "81.jpg",
+        "task description": "Move the main rocks in the road away so that we can pass.",
+        "allowed actions": "[AnalyzeVisual], [IdentifyObject], [MatchObjects], [PickUp], [Navigation]",
+        "already executed steps": "[AnalyzeVisual] <rock formations>, [IdentifyObject] <rock 1>",
+        "target": "[Navigation] <rock 1>, [PickUp] <rock 1>, [Navigation] <road side>, [IdentifyObject] <rock 2>, [Navigation] <rock 2>, [PickUp] <rock 2>, [Navigation] <road side>"
+    },
+    "88": {
+        "image_id": "36.jpg",
+        "task description": "Identify the central vanishing point of the given artwork and point it out.",
+        "allowed actions": "[AnalyzePattern], [IdentifyObject], [ReportInformation], [NavigateView], [Observe], [PointAction], [PickUpObject], [Draw]",
+        "already executed steps": "[NavigateView] <artwork>, [Observe] <artwork>, [AnalyzePattern] <perspective drawing>",
+        "target": "[IdentifyObject] <vanishing point>, [PointAction] <estimated vanishing point>"
+    },
+    "89": {
+        "image_id": "130.jpg",
+        "task description": "Take a photograph of the soccer player kicking the ball without any obstructions in the frame.",
+        "allowed actions": "[Navigate], [AdjustFocus], [ZoomIn], [ZoomOut], [ChangeAngle], [WaitForMoment], [TakePhoto], [ReviewPhoto], [DeletePhoto], [SavePhoto], [InteractWithCameraSettings], [PositionCamera], [SwitchCameraMode]",
+        "already executed steps": "[Navigate] <position opposite to the player>, [PositionCamera] <facing the player>, [AdjustFocus] <player>, [WaitForMoment] <ball is kicked>",
+        "target": "[ChangeAngle] <to avoid obstruction>, [PositionCamera] <facing the player>, [AdjustFocus] <player>, [WaitForMoment] <ball is kicked>, [TakePhoto] <player kicking the ball>"
+    },
+    "90": {
+        "image_id": "113.jpg",
+        "task description": "Remove the protective cap from the inhaler and prepare it for use.",
+        "allowed actions": "[IdentifyObject], [GraspObject], [RemoveObject], [PositionObject], [UseObject], [ReleaseObject], [Navigate]",
+        "already executed steps": "[IdentifyObject] <inhaler>, [Navigate] <inhaler>",
+        "target": "[IdentifyObject] <protective cap>, [GraspObject] <protective cap>, [RemoveObject] <protective cap>, [ReleaseObject] <protective cap>, [PositionObject] <inhaler>"
+    },
+    "91": {
+        "image_id": "47.jpg",
+        "task description": "Identify and catalog the facial features of the woman in the image.",
+        "allowed actions": "[Navigate], [ZoomIn], [ZoomOut], [CaptureImage], [AnalyzeImage], [IdentifyFeature], [RecordFeature], [CompareFeatures], [Categorize], [ReportResults]",
+        "already executed steps": "[Navigate] <image>, [CaptureImage] <woman's face>, [ZoomIn] <eyes>, [IdentifyFeature] <eyes>, [RecordFeature] <eyes>",
+        "target": "[ZoomIn] <nose>, [IdentifyFeature] <nose>, [RecordFeature] <nose>, [ZoomOut] <face>, [ZoomIn] <mouth>, [IdentifyFeature] <mouth>, [RecordFeature] <mouth>, [ZoomOut] <face>, [ZoomIn] <eyebrows>, [IdentifyFeature] <eyebrows>, [RecordFeature] <eyebrows>, [ZoomOut] <face>, [ZoomIn] <skin>, [IdentifyFeature] <skin>, [RecordFeature] <skin>"
+    },
+    "92": {
+        "image_id": "72.jpg",
+        "task description": "Navigate to the West Gallery and secure the entrance.",
+        "allowed actions": "[Navigation], [IdentifyObject], [PickupObject], [PutObject], [InteractWithObject], [MoveObject], [BlockPath], [OpenObject], [CloseObject], [ToggleSwitch], [UseCommunicationsDevice], [MonitorSurroundings], [ReportStatus]",
+        "already executed steps": "[Navigation] <West Gallery entrance>, [IdentifyObject] <door>, [InteractWithObject] <door handle>, [OpenObject] <door>",
+        "target": "[CloseObject] <door>, [BlockPath] <barricade materials>, [UseCommunicationsDevice] <report status>, [MonitorSurroundings] <West Gallery entrance>"
+    },
+    "93": {
+        "image_id": "108.jpg",
+        "task description": "Simulate ark construction by arranging the chairs to represent rooms and place the cushions in a line to indicate the construction path.",
+        "allowed actions": "[Navigation], [PickupObject], [PutObject], [ArrangeFurniture], [ManipulateObject], [PlanPath], [MeasureSpace], [ImitateConstruction]",
+        "already executed steps": "[Navigation] <open space>, [PickupObject] <cushion>, [PutObject] <cushion> <designated path>, [PlanPath] <construction simulation>, [MeasureSpace] <open space>",
+        "target": "[ArrangeFurniture] <chairs> <rooms>, [PickupObject] <cushion>, [PutObject] <cushion> <designated path>, [ImitateConstruction] <arranged chairs>"
+    },
+    "94": {
+        "image_id": "137.jpg",
+        "task description": "Apply the settings from the thumbnail preview to the main image in the photo editing software.",
+        "allowed actions": "[Navigate], [Click], [Drag], [AdjustSlider], [ApplyEffect], [ConfirmEdit], [PreviewEdit], [SaveEdit], [OpenMenu], [SelectOption], [UndoAction], [RedoAction]",
+        "already executed steps": "[Navigate] <photo editing software>, [Click] <thumbnail preview>",
+        "target": "[AdjustSlider] <Temp>, [AdjustSlider] <Tint>, [AdjustSlider] <Exposure>, [AdjustSlider] <Contrast>, [AdjustSlider] <Highlights>, [AdjustSlider] <Shadows>, [AdjustSlider] <Whites>, [AdjustSlider] <Blacks>, [ConfirmEdit], [SaveEdit]"
+    },
+    "95": {
+        "image_id": "82.jpg",
+        "task description": "Explore the room and describe the Sultan's chamber in detail.",
+        "allowed actions": "[Navigation], [IdentifyObject], [Describe], [Photograph], [Catalogue], [Report], [ReadText], [Speak], [Listen]",
+        "already executed steps": "[Navigation] <entrance of the room>, [IdentifyObject] <chandelier>, [IdentifyObject] <throne>, [IdentifyObject] <carpet>",
+        "target": "[IdentifyObject] <paintings>, [IdentifyObject] <decorative items>, [Describe] <Sultan's chamber>"
+    },
+    "96": {
+        "image_id": "43.jpg",
+        "task description": "Perform an inspection of the art exhibition and ensure all artworks are correctly positioned on the walls.",
+        "allowed actions": "[Navigation], [Observe], [AdjustPosition], [Measure], [ReportStatus], [TakePhoto], [CommunicateWithHumans], [IdentifyObject], [ApproachObject], [RetreatFromObject]",
+        "already executed steps": "[Navigation] <gallery>, [IdentifyObject] <artworks>, [Observe] <position of artworks>, [ApproachObject] <first artwork>",
+        "target": "[Measure] <first artwork>, [AdjustPosition] <first artwork>, [ApproachObject] <second artwork>, [Measure] <second artwork>, [AdjustPosition] <second artwork>, [ApproachObject] <third artwork>, [Measure] <third artwork>, [AdjustPosition] <third artwork>, [ApproachObject] <fourth artwork>, [Measure] <fourth artwork>, [AdjustPosition] <fourth artwork>, [ApproachObject] <fifth artwork>, [Measure] <fifth artwork>, [AdjustPosition] <fifth artwork>, [ApproachObject] <sixth artwork>, [Measure] <sixth artwork>, [AdjustPosition] <sixth artwork>"
+    },
+    "97": {
+        "image_id": "109.jpg",
+        "task description": "Navigate towards the destination by following the road for a specified distance.",
+        "allowed actions": "[NavigateRoad], [MeasureDistance], [IdentifyLandmarks], [TrackLocation], [AdjustSpeed], [FollowTrafficRules], [SignalTurn], [StopVehicle], [StartVehicle], [MonitorInstruments]",
+        "already executed steps": "[StartVehicle] <location>, [AdjustSpeed] <legal limit>, [NavigateRoad] <straight path>",
+        "target": "[MeasureDistance] <specified distance>, [StopVehicle] <destination>"
+    },
+    "98": {
+        "image_id": "106.jpg",
+        "task description": "Identify the vials with samples and place them in the designated racks on the Gas Chromatograph.",
+        "allowed actions": "[IdentifyObject], [PickupObject], [PutObject], [Navigate], [ReadLabel], [OpenDrawer], [CloseDrawer], [SanitizeObject], [UseComputer], [EnterData], [ConfirmAction]",
+        "already executed steps": "[Navigate] <lab bench>, [IdentifyObject] <vials>, [PickupObject] <vial with orange cap>, [ReadLabel] <vial with orange cap>",
+        "target": "[PutObject] <vial with orange cap> <Gas Chromatograph rack>, [PickupObject] <vial with purple cap>, [ReadLabel] <vial with purple cap>, [PutObject] <vial with purple cap> <Gas Chromatograph rack>, [PickupObject] <vial with aqua cap>, [ReadLabel] <vial with aqua cap>, [PutObject] <vial with aqua cap> <Gas Chromatograph rack>, [PickupObject] <vial with yellow cap>, [ReadLabel] <vial with yellow cap>, [PutObject] <vial with yellow cap> <Gas Chromatograph rack>"
+    },
+    "99": {
+        "image_id": "132.jpg",
+        "task description": "Guide the guests to exit the campus using the same entrance path they took when arriving.",
+        "allowed actions": "[Navigation], [Observe], [IdentifyPath], [Guide], [Speak], [InteractWithPerson], [Listen], [ReadSigns], [FollowPath], [ReportStatus], [UpdateNavigationMap]",
+        "already executed steps": "[IdentifyPath] <entrance path>, [Navigation] <campus plaza>, [Observe] <guests>, [ReadSigns] <directional signs>, [Speak] <inform guests of exit protocol>",
+        "target": "[Guide] <guests>, [UpdateNavigationMap] <entrance path>, [InteractWithPerson] <guests>, [FollowPath] <entrance path>, [ReportStatus] <exit completed>"
+    },
+    "100": {
+        "image_id": "46.jpg",
+        "task description": "Provide first aid to the person lying in the snow and notify emergency services.",
+        "allowed actions": "[Navigation], [ExamineObject], [UseObject], [InteractWithPerson], [Speak], [Listen], [PickupObject], [PutObject], [Call], [ConfirmAction], [TakePhoto], [SendInformation]",
+        "already executed steps": "[Navigation] <person>, [ExamineObject] <person>, [Speak] <person>",
+        "target": "[UseObject] <first aid kit>, [Call] <emergency services>, [ConfirmAction] <first aid provided>, [SendInformation] <location>, [Listen] <emergency services>, [InteractWithPerson] <person>"
+    }
+}

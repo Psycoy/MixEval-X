@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="/bootstrap/4.5.3/scss/bootstrap.css" rel="stylesheet" media="screen" />
+<!-- <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.css" media="screen" /> -->
+<!-- <link href="/assets/css/style.css" rel="stylesheet" /> -->
+<link href="/assets/css/main.css" rel="stylesheet" /><link rel="stylesheet" href="https://use.typekit.net/wku3oee.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.callrail.com/companies/604507904/56a798f99119dbd6d6f3/12/swap.js"></script> 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172740830-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-172740830-1');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132486495-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132486495-1');
+  </script>
+  <meta name="facebook-domain-verification" content="wmw0v5gn5wn3l90gp6pwcih4wo94xx" />
+<!-- Facebook Pixel Code -->
+  <script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '958407097883473');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=958407097883473&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+	
+	<script type="application/ld+json">
+{
+
+"@context" : "http://schema.org",
+"@type" : "LocalBusiness",
+"name": "Hard Rock Stone Works",
+"image" : "http://www.hardrockstoneworks.com/images/logo.png",
+"address" : {
+"@type" : "PostalAddress",
+"streetAddress" : "44038 Phoenix Dr.",
+"addressLocality" : "Sterling Heights",
+"addressRegion" : "MI",
+"addressCountry" : "United States",
+"postalCode" : "48314"
+  },
+"openingHours": "Mo, Tu, We, Th 08:30-17:00 Fr 08:30-12:00"
+
+ "potentialAction": {
+     "@type": "SearchAction",
+     "target": "https://query.hardrockstoneworks.com/search?q={search_term_string}",
+     "query-input": "required name=search_term_string"
+}
+</script> 
+<script>
+!function(e,i){if(!e.pixie){var n=e.pixie=function(e,i,a){n.actionQueue.push({action:e,actionValue:i,params:a})};n.actionQueue=[];var a=i.createElement("script");a.async=!0,a.src="//acdn.adnxs.com/dmp/up/pixie.js";var t=i.getElementsByTagName("head")[0];t.insertBefore(a,t.firstChild)}}(window,document);
+pixie('init', '0011872a-41b5-41f5-b98b-ee1ab62b68c5');
+</script>
+
+<!-- Xandr Universal Pixel - PageView Event -->
+<script>
+pixie('event', 'PageView');
+</script>
+<script src=""https://tracker.pixeltracker.co/pixel.js""></script>
+<title>
+
+</title></head>
+
+<body>
+<noscript><img src="https://ib.adnxs.com/pixie?pi=0011872a-41b5-41f5-b98b-ee1ab62b68c5&e=PageView&script=0" width="1" height="1" style="display:none"/></noscript>
+  
+  
+  <!-- div class="py-1 text-center text-uppercase covid-banner"> <a href="/assets/docs/COVID-19UpdateJune21.pdf" target="_blank" class="text-warning"></a></div -->
+<nav class="navbar navbar-expand-lg navbar-dark main-navbar p-0 pb-5 justify-content-between">
+    <a  class=" logo-home nav-link text-white d-none d-lg-block" href="/" ><img  alt="hard rock stoneworks logo"  class=" img-fluid" src="/assets/images/logo.png" ></a>
+    
+    <div class="d-lg-none text-center">
+        <a  class=" logo-home nav-link text-white pb-0" href="/" ><img  alt="hard rock stoneworks logo"  class=" img-fluid" src="/assets/images/logo.png" ></a>
+        <div class="m-auto"><a href="tel:5865327763" order="0" id="phoner1">586.532.7763</a></div>
+    </div>
+
+    <!-- <div class="mobile-chat-btn d-lg-none"><img src="/assets/images/LiveChat-white.svg" style="width: 22px;
+      margin-right: 3px; vertical-align: baseline;"><a href="#" class="text-white">Live chat</a></div> -->
+
+<div class="mobile-chat-btn d-lg-none"><img src="/assets/images/LiveChat-white.svg" style="width: 22px;
+  margin-right: 3px; vertical-align: baseline;"><span data-id="VeGpH_iWqyn" class="livechat_button"><a href="https://www.livechat.com/?utm_source=chat_button&utm_medium=referral&utm_campaign=lc_11814678">chat with us</a></span></div>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- <button class="navbar-toggler navbar-toggler-left m-3 " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+    <!-- <a  class=" navbar-brand" href="/" ><img  alt="hard rock stoneworks logo"  class=" img-fluid" src="/assets/images/logo.png" ></a>
+     -->
+    <div class="bg-gradient-gold-v main-nav collapse navbar-collapse py-0 px-3" id="navbarSupportedContent">
+      <div class="top-nav d-none d-lg-flex justify-content-around align-items-end">
+        <div class="premium-img"><a href="/premium-quartz" ><img  class=" img-fluid" src="/assets/images/premiumquartz-logo.png" ></a></div>
+        <div class=""><a href="tel:5865327763"  order="0" >586.532.7763</a></div>
+        <div class=""><img src="/assets/images/MeasuringTape-white.svg" style="width: 30px;
+          margin-right: 3px; vertical-align: baseline;"><a href="/estimator-pro" class="text-white">Estimate now</a></div>
+        <div class=""><img src="/assets/images/LiveChat-white.svg" style="width: 22px;
+          margin-right: 3px; vertical-align: baseline;"><span data-id="VeGpH_iWqyn" class="livechat_button"><a href="https://www.livechat.com/?utm_source=chat_button&utm_medium=referral&utm_campaign=lc_11814678">chat with us</a></span></div>
+        <div class=""><img src="/assets/images/CurrentInventory-white.svg" style="width: 22px;
+          margin-right: 3px; vertical-align: baseline;"><a href="/slabs" class="text-white">Current inventory</a></div>
+      </div>
+      <ul class="navbar-nav nav-fill w-100 py-3 py-md-0">
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="4064_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stone</a><div class="dropdown-menu" aria-labelledby="4064_Dropdown"><a  class=" dropdown-item" href="/stone/granite"  order="0" >Granite</a><a  class=" dropdown-item" href="/stone/quartz"  order="1" >Quartz</a><a  class=" dropdown-item" href="/stone/marble"  order="2" >Marble</a><a  class=" dropdown-item" href="/stone/quartzite"  order="3" >Quartzite</a><a  class=" dropdown-item" href="/stone/porcelain"  order="4" >Porcelain</a><a  class=" dropdown-item" href="/stone/current-offers"  order="5" >Current Offers</a><a  class=" dropdown-item" href="/stone/compare-stone"  order="6" >Compare Stone</a><a  class=" dropdown-item" href="/stone/care-and-maintenance"  order="7" >Care And Maintenance</a><a  class=" dropdown-item" href="/stone/university-of-rock"  order="8" >University Of Rock</a></div></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="34_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cabinets</a><div class="dropdown-menu" aria-labelledby="34_Dropdown"><a  class=" dropdown-item" href="/cabinets#"  order="0" >Custom Cabinets</a><a  class=" dropdown-item" href="/cabinets#dream-team"  order="1" >Design Dream Team</a><a  class=" dropdown-item" href="/cabinets/porcelainPossible"  order="2" >Current Offers</a><a  class=" dropdown-item" href="/cabinets#cabinet-maker"  order="3" >What To Expect</a></div></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="4069_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Getting Started</a><div class="dropdown-menu" aria-labelledby="4069_Dropdown"><a  class=" dropdown-item" href="/getting-started#do-it-yourselfer"  order="0" >Do-It-Yourselfer</a><a  class=" dropdown-item" href="/getting-started#contractor"  order="1" >Working With A Contractor</a><a  class=" dropdown-item" href="/getting-started#designer"  order="2" >Working With An Interior Designer</a><a  class=" dropdown-item" href="/getting-started#step-by-step"  order="3" >Step-By-Step</a></div></li>
+            
+          <li class="nav-item">
+            <a  target="_blank"  class=" nav-link" href="/rock-shop"  order="0" >Rock Shop</a>
+            
+          </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="46_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personalize</a><div class="dropdown-menu" aria-labelledby="46_Dropdown"><a  class=" dropdown-item" href="/personalize/style-your-edge"  order="0" >Style Your Edge</a><a  class=" dropdown-item" href="/personalize/select-your-finish"  order="1" >Select Your Finish</a><a  class=" dropdown-item" href="/personalize/create-your-layout"  order="2" >Create Your Layout</a><a  class=" dropdown-item" href="/personalize/choose-your-sink"  order="3" >Choose Your Sink</a><a  class=" dropdown-item" href="/personalize/plan-your-care"  order="4" >Plan Your Care</a><a  class=" dropdown-item" href="/personalize/warranty-options"  order="5" >Know Your Warranty Options</a></div></li>
+            
+          <li class="nav-item">
+            <a  class=" nav-link" href="/financing"  order="0" >Financing</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            <a  class=" nav-link" href="/contact" >Contact</a>
+            
+          </li>
+        
+        <div class="d-lg-none bg-secondary pt-0 p-2">
+            <a href="/staff">
+              <img src="/assets/images/schedule-appointment-btn.jpg" style="width: 200px;">
+            </a>
+        </div>
+        <div class="d-lg-none p-3" style="background:#b0752b;"><img src="/assets/images/CurrentInventory-white.svg" style="width: 22px;
+            margin-right: 3px; vertical-align: baseline;"><a href="/slabs" class="text-white">Current inventory</a>
+        </div>
+      </ul>
+      <div class="bottom-nav d-lg-block d-none">
+        <div>
+          <a href="/staff">
+            <img src="/assets/images/schedule-appointment-btn.jpg" style="width: 200px;">
+          </a>
+        </div>
+      </div>
+    </div>
+	
+	<script>
+  
+
+  // Get the button that opens the modal
+  var btnP = document.getElementById("phoner1");
+
+    
+    btnP.onclick = function () {
+FLPIXEL.fire("95af9f29-bb8b-4465-947e-c5627b3aad9c", {
+"category": "lead",
+"subcategory": "clicktocall",
+});
+     
+  }
+
+
+</script>
+	</script>
+</nav> 
+<!-- </div> -->
+
+  <main>
+    
+<div class="d-flex flex-column align-items-center justify-content-center">
+<img src="/images/404.jpg" class="img-fluid p-5">
+
+</div>
+
+  </main>
+  
+  <footer class="container-fluid bg-gradient-gold-v footer pt-5 text-white">
+
+
+  <div class="container">
+    <ul class="nav justify-content-center footer mb-3">
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/reviews" >Reviews</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/blog" >Blog</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/videos" >Videos</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  target="_blank"  class=" text-white text-uppercase" href="/rock-shop"  order="0" >Rock Shop</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/partners" >Partners</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/contact" >Contact</a>
+          
+        </li>
+      
+        <li class="list-inline-item px-3 mb-2 mb-md-0">
+          <a  class=" text-white text-uppercase" href="/company"  order="0" >Company</a>
+          
+        </li>
+      
+    </ul> 
+</div>
+
+<div class="row">
+  <div class="col-md-3 text-center text-md-left">
+    <div class="mb-2 d-inline-block" style="max-width: 75px;"><img  class=" img-fluid" src="/assets/images/bbb-logo.png" ></div>
+    <div class="font-weight-bolder text-uppercase">Connect with us!</div>
+    <div class="lead"><a href="http://facebook.com/HardRockStoneWorks" class="text-white mr-2 h4" target="_blank"><i class="fab fa-facebook-square"></i></a><a href="http://twitter.com/hardrockstonewk" class="text-white mr-2 h4" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://www.instagram.com/hardrockstoneworks/" class="text-white mr-2 h4" target="_blank"><i class="fab fa-instagram"></i></a></div>
+  </div>
+  <div class="col-md-3 my-auto text-center">
+    <div class="d-inline-block my-3 my-md-0" style="max-width: 140px;"><img  class=" img-fluid" src="/assets/images/logo-footer.png" ></div>
+  </div>
+ 
+  <div class="footer-col col-md-4 my-md-auto text-center text-md-left mb-2">
+    <p class="font-weight-bold m-0 lead">STERLING HEIGHTS</p>
+    44038 Phoenix Dr. | Sterling Heights, MI 48314<br>
+    <a href="tel:5865327763" class="text-white">586.532.7763</a>
+    <a href="https://players.cupix.com/p/7H3QeLxq" target="_blank" class="text-white mt-2 d-block"><i class="fas fa-play"></i> | Take the Tour!</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 text-center">
+    <p>Hours: Monday-Friday, 9 a.m.&ndash;6 p.m. <br>Saturday, 9 a.m.&ndash;5 p.m.</p>
+  </div>
+</div>
+<div class="container small">
+	<div class="row">
+		<div class="col-12 text-center mb-3">
+			&copy; 2024 Hard Rock Stone Works, Inc.
+			<span class="d-none d-lg-inline px-1">|</span>
+			<a  class=" d-block d-lg-inline text-white pt-2 pt-lg-0" href="/privacy-policy" >Privacy Policy</a>
+			<span class="d-none d-lg-inline px-1">|</span>
+			<a  class=" d-block d-lg-inline text-white" href="/terms-of-service" >Terms of Service</a>
+		</div>
+  </div>
+  <style>
+  #chat-widget-container {}
+  </style>
+</div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script async src="/assets/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function () {
+    var url = window.location.pathname;
+    $('.navbar-nav a[href="' + url + '"]').addClass('active');
+    $('.nav .nav-item a[href="' + url + '"]').addClass('active');
+    $('.nav-item.dropdown a[href="' + dirname(window.location.pathname) + '"]').addClass('active');
+
+    // look if localStorage accepted cookies policy / show banner
+    if (window.localStorage.getItem('cookies-accepted') !== '1') {
+      $('#CookieBanner').show();
+    }
+    $("#Accept").click(function () {
+      $('#CookieBanner').hide();
+      window.localStorage.setItem('cookies-accepted', '1');
+    });
+  });
+
+  function basename(path) {
+    return path.replace(/\\/g, '/').replace(/.*\//, '');
+  }
+
+  function dirname(path) {
+    return path.replace(/\\/g, '/').replace(/\/[^\/]*$/, '');;
+  }
+</script>
+
+<!-- <script>
+$(window).on('load',function(){
+    var delayMs = 300; // delay in milliseconds
+    
+    setTimeout(function(){
+        $('#myModal').modal('show');
+    }, delayMs);
+});
+</script> -->
+
+
+<script>
+  // close animation mobile menu
+  $(document).ready(function () {
+    $('.first-button').on('click', function () {
+      $('.animated-icon1').toggleClass('open');
+    });
+    $('.second-button').on('click', function () {
+      $('.animated-icon2').toggleClass('open');
+    });
+    $('.third-button').on('click', function () {
+      $('.animated-icon3').toggleClass('open');
+    });
+  });
+
+
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+   // Create a media condition that targets viewports at least 768px wide
+  const mediaQuery = window.matchMedia('(min-width: 768px)')
+    // Check if the media query is true
+    if (mediaQuery.matches) {
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    $(window).on('load', function () {
+      modal.style.display = "block";
+    });
+  }
+
+</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script>
+  window.__lc = window.__lc || {};
+  window.__lc.license = 11814678;
+  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechatinc.com/chat-with/11814678/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code --><style>
+#CookieBanner {z-index:404040404;}
+</style>
+<div class="p-4" id="CookieBanner" style="display: none;">
+  <div class="row">
+    <div class="col-md-8">
+      This site uses cookies to provide you with a great user experience. By continuing to use this website, you consent to the use of cookies in accordance with our <a href="/privacy-policy#cookies">Cookie Policy</a>.
+    </div>
+    <div class="col-md-4 text-md">
+      <button type="button" id="Accept" class="btn btn-primary mt-2">Accept Cookies</button>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
