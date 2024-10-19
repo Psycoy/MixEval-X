@@ -29,6 +29,8 @@ The exact output structures and data formats are detailed below. **We show examp
 
 2. The difference between model input (the benchmark data) and output (the model response file) is just the `"response"` field, i.e., each entry in your output file should keep all key-value pairs (including the 'id') of the input entry, with an additional `"response"` field representing the model's output.
 
+<br><br><br>
+
 ## MMU Tasks (Image2Text, Video2Text, and Audio2Text)
 
 ### Structure
