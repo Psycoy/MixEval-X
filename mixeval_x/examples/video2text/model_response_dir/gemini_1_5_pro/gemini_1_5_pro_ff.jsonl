@@ -1,0 +1,3 @@
+{"problem_type": "free-form", "video_id": "1.mp4", "prompt": "is playing football difficult", "target": ["yes"], "benchmark_name": "ActivityNet-QA", "response": "Yes.", "id": "1"}
+{"problem_type": "free-form", "video_id": "2.mp4", "prompt": "What is the idea of the advertisement?", "target": ["steam clean", "steam clean", "cleaning", "car", "steam clean"], "benchmark_name": "IVQA", "response": "Car steam cleaning. \n", "id": "2"}
+{"problem_type": "free-form", "video_id": "3.mp4", "prompt": "What does the location of video look like?", "target": ["labotory", "laboratory", "laboratory", "laboratory", "laboratory"], "benchmark_name": "IVQA", "response": "Laboratory", "id": "3"}
