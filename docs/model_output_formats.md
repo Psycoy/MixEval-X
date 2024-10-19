@@ -47,7 +47,7 @@ The exact output structures and data formats are detailed below.
 
 ### Output Data Format
 
-Free-form (your_model_name_ff.jsonl):
+Free-form (`your_model_name_ff.jsonl`):
 ```
 [
     {
@@ -63,7 +63,7 @@ Free-form (your_model_name_ff.jsonl):
 ]
 ```
 
-Multiple-choice (your_model_name_mp.jsonl):
+Multiple-choice (`your_model_name_mp.jsonl`):
 ```
 [
     {
@@ -91,7 +91,7 @@ Structure:
             └── your_model_name_t2a.jsonl
 ```
 
-Output Data Format (your_model_name_t2a.jsonl):
+Output Data Format (`your_model_name_t2a.jsonl`):
 ```
 [
     {
@@ -115,7 +115,7 @@ Structure:
             └── your_model_name_i2a.jsonl
 ```
 
-Output Data Format (your_model_name_i2a.jsonl):
+Output Data Format (`your_model_name_i2a.jsonl`):
 ```
 [
     {
@@ -142,7 +142,7 @@ Structure:
             └── your_model_name_t2i.jsonl
 ```
 
-Output Data Format (your_model_name_t2i.jsonl):
+Output Data Format (`your_model_name_t2i.jsonl`):
 ```
 [
     {
