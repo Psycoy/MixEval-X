@@ -47,7 +47,7 @@ The exact output structures and data formats are detailed below.
 
 ### Output Data Format
 
-Free-form (ff):
+Free-form (your_model_name_ff):
 ```
 [
     {
@@ -63,7 +63,7 @@ Free-form (ff):
 ]
 ```
 
-Multiple-choice (mp):
+Multiple-choice (your_model_name_mp):
 ```
 [
     {
