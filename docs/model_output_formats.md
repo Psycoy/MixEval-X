@@ -24,12 +24,12 @@ Here, the `--model_response_dir` specifies the parent directory of your model di
             └── ...
 ```
 
-The exact output structures and data formats are detailed below. 
-
 🚨 **We show example model output structures and files in `mixeval_x/examples/`**.
 
 
 > The difference between model input (the benchmark data) and output (the model response file) is just the `"response"` field, i.e., each entry in your output file should keep all key-value pairs (including the 'id') of the input entry, with an additional `"response"` field representing the model's output.
+
+The exact output structures and data formats are detailed below. 
 
 <br><br><br>
 
