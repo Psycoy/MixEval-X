@@ -1,6 +1,6 @@
 # Model Output Formats
 
-1. As illustrated in the README.md, you can run our provided command after preparing your model output files as specified in this document. For example, below is our provided grading command for the Image2Text benchmark:
+As illustrated in the README.md, you can run our provided command after preparing your model output files as specified in this document. For example, below is our provided grading command for the Image2Text benchmark:
 
 ```
 python -m mixeval_x.compute_metrics_mmu \
