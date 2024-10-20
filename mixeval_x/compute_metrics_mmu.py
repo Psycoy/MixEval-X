@@ -191,8 +191,9 @@ def compute_metric_closeended_freeform_modelparse(args):
         args.benchmark,
         "score_ff.json"), "w") as f:
         f.write(json.dumps(score_dict, indent=4) + "\n")
-        
-    return score_dict
+    
+    # print(f"Number of ff entries: {len(results)}")
+    return score_dict, len(results)
 
 def compute_metric_closeended_multichoice_modelparse(args):
 
@@ -286,8 +287,9 @@ def compute_metric_closeended_multichoice_modelparse(args):
         args.benchmark,
         "score_mp.json"), "w") as f:
         f.write(json.dumps(score_dict, indent=4) + "\n")
-        
-    return score_dict
+    
+    # print(f"Number of mp entries: {len(results)}")
+    return score_dict, len(results)
 
 def compute_metric_closeended_freeform(args):
     return compute_metric_closeended_freeform_modelparse(args)
@@ -297,8 +299,8 @@ def compute_metric_closeended_multichoice(args):
 
 def compute_metric_closeended(args):
     if "audio" not in args.benchmark:
-        score_dict_ff = compute_metric_closeended_freeform(args)
-        score_dict_mp = compute_metric_closeended_multichoice(args)
+        score_dict_ff, ff_num = compute_metric_closeended_freeform(args)
+        score_dict_mp, mp_num = compute_metric_closeended_multichoice(args)
         
         models_ff = set(score_dict_ff.keys())
         models_mp = set(score_dict_mp.keys())
@@ -317,7 +319,7 @@ def compute_metric_closeended(args):
                 model,
                 )
             score_dict_model = {
-                "overall score (final score)": (score_dict_ff[model]['overall'] + score_dict_mp[model]['overall']) / 2,
+                "overall score (final score)": (score_dict_ff[model]['overall']*ff_num + score_dict_mp[model]['overall']*mp_num) / (ff_num + mp_num),
                 **{f"{k} (free-form)":v for k, v in score_dict_ff[model].items() if k != "overall"},
                 **{f"{k} (multiple-choice)":v for k, v in score_dict_mp[model].items() if k != "overall"},
                 }

@@ -30,7 +30,7 @@
 
 **MixEval-X** is the **first** any-to-any, real-world benchmark featuring **diverse input-output modalities**, **real-world task distributions**, **consistent high standards across modalities**, and **dynamism**. It achieves up to **0.98** correlation with arena-like multi-modal evaluations while being way more efficient.
 
-> See our [homepage](https://mixeval-x.github.io/) and [paper](https://arxiv.org/abs/2410.13754) for more details!
+> See the [project page](https://mixeval-x.github.io/) and [paper](https://arxiv.org/abs/2410.13754) for more details.
 
 <br>
 
