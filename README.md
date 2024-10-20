@@ -37,6 +37,8 @@
 # This Repo
 This repo contains the grading code for MixEval-X, i.e., once you have prepared your model outputs according to the required format, you will be able to get the final scores with only a few steps.
 
+The MixEval-X data can be downloaded from the [huggingface](https://huggingface.co/datasets/MixEval/MixEval-X).
+
 **Feel free to use your own grading code, as long as it's fair.**
 
 <br>
@@ -125,7 +127,7 @@ python -m mixeval_x.compute_metrics_mmgen \
         gemini_1_5_flash
 ```
 
-> The MMG results in [Leaderboard](https://mixeval-x.github.io/#leaderboard) were graded with Amazon Mechanical Turk workers. Text2Image also supports model parsing (See Section 4.2 of the paper). However, the Text2Video and Text2Audio lack capable model judges, and thus their grading are not implemented. **You should hire human evaluators to grade these two subsets.**
+> The MMG results (Text2Image, Text2Video, and Text2Audio) in [Leaderboard](https://mixeval-x.github.io/#leaderboard) were graded with Amazon Mechanical Turk workers. Text2Image also supports model parsing (See Section 4.2 of the paper). However, the Text2Video and Text2Audio lack capable model judges, and thus their grading are not implemented. **You should hire human evaluators to grade these two subsets.**
 
 <br>
 
