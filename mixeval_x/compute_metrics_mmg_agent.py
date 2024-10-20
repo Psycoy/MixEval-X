@@ -1,11 +1,3 @@
-'''
-Usage:
-python -m mixeval_x.compute_metrics_mmgen \
-    --benchmark mixeval_x_text2action \
-    --judge_model "gpt-4o-2024-08-06" \
-    --models_to_eval \
-        llama_3_2_90b
-'''
 import json
 import argparse
 import os

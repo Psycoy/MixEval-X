@@ -1,10 +1,3 @@
-'''
-Usage:
-python -m mixeval_x.compute_metrics_mmu \
-    --benchmark mixeval_x_image2text_close \
-    --models_to_eval \
-        llama_3_2_90b
-'''
 import json
 import argparse
 import os
