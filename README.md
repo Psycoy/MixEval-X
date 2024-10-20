@@ -127,6 +127,7 @@ python -m mixeval_x.compute_metrics_mmgen \
 
 > The MMG results in [Leaderboard](https://mixeval-x.github.io/#leaderboard) were graded with Amazon Mechanical Turk workers. Text2Image also supports model parsing (See Section 4.2 of the paper). However, the Text2Video and Text2Audio lack capable model judges, and thus their grading are not implemented. **You should hire human evaluators to grade these two subsets.**
 
+<br>
 
 # Why to Use MixEval-X Benchmarks?
 
