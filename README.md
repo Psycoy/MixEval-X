@@ -75,14 +75,12 @@ python -m mixeval_x.compute_metrics_mmu \
         gemini_1_5_flash
 
 # Hard Version
-```
 python -m mixeval_x.compute_metrics_mmu \
     --benchmark image2text_hard \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
         gemini_1_5_flash
-```
 ```
 
 Video2Text
