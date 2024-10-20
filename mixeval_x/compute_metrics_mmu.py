@@ -29,12 +29,12 @@ def parse_args():
     parser.add_argument(
         "--benchmark", 
         type=str, 
-        choices=["mixeval_x_image2text_close", 
-                 "mixeval_x_video2text_close", 
-                 "mixeval_x_audio2text_close", 
-                 "mixeval_x_image2text_close_hard", 
-                 "mixeval_x_video2text_close_hard", 
-                 "mixeval_x_audio2text_close_hard"
+        choices=["image2text", 
+                 "video2text", 
+                 "audio2text", 
+                 "image2text_hard", 
+                 "video2text_hard", 
+                 "audio2text_hard"
                  ], 
         required=True,
         help="Benchmark to evaluate."
@@ -354,12 +354,11 @@ def compute_metric_closeended(args):
             
 
 def compute_metric(args):
-    if args.benchmark in ["mixeval_x_image2text_close", "mixeval_x_video2text_close", "mixeval_x_audio2text_close"]:
+    if args.benchmark in ["image2text", "video2text", "audio2text", "image2text_hard", "video2text_hard", "audio2text_hard"]:
         compute_metric_closeended(args)
-    elif args.benchmark == "mixeval_x_image2text_close_hard":
-        raise NotImplementedError("Hard benchmark is not supported yet.")
     else:
-        raise ValueError(f"Invalid benchmark: {args.benchmark}")
+        raise ValueError(f"Invalid benchmark: {args.benchmark}, please choose from "
+                         f"['image2text', 'video2text', 'audio2text', 'image2text_hard', 'video2text_hard', 'audio2text_hard']")
             
 
 if __name__ == '__main__':

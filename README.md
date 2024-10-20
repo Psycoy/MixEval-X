@@ -67,7 +67,7 @@ MODEL_PARSER_API=<your openai api key>
 Image2Text
 ```
 python -m mixeval_x.compute_metrics_mmu \
-    --benchmark mixeval_x_image2text_close \
+    --benchmark image2text \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
@@ -77,7 +77,7 @@ python -m mixeval_x.compute_metrics_mmu \
 Video2Text
 ```
 python -m mixeval_x.compute_metrics_mmu \
-    --benchmark mixeval_x_video2text_close \
+    --benchmark video2text \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
@@ -87,7 +87,7 @@ python -m mixeval_x.compute_metrics_mmu \
 Audio2Text
 ```
 python -m mixeval_x.compute_metrics_mmu \
-    --benchmark mixeval_x_audio2text_close \
+    --benchmark audio2text \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
@@ -97,7 +97,7 @@ python -m mixeval_x.compute_metrics_mmu \
 Text2Action
 ```
 python -m mixeval_x.compute_metrics_mmgen \
-    --benchmark mixeval_x_text2action \
+    --benchmark text2action \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
     --models_to_eval \
@@ -108,7 +108,7 @@ python -m mixeval_x.compute_metrics_mmgen \
 Image2Action
 ```
 python -m mixeval_x.compute_metrics_mmgen \
-    --benchmark mixeval_x_image2action \
+    --benchmark image2action \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
     --models_to_eval \
@@ -119,7 +119,7 @@ python -m mixeval_x.compute_metrics_mmgen \
 Text2Image
 ```
 python -m mixeval_x.compute_metrics_mmgen \
-    --benchmark mixeval_x_text2image \
+    --benchmark text2image \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
     --models_to_eval \

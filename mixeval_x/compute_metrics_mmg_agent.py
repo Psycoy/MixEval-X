@@ -27,11 +27,11 @@ def parse_args():
     parser.add_argument(
         "--benchmark", 
         type=str, 
-        choices=["mixeval_x_text2image", 
-                 "mixeval_x_text2video", 
-                 "mixeval_x_text2audio", 
-                 "mixeval_x_text2action",
-                 "mixeval_x_image2action"
+        choices=["text2image", 
+                 "text2video", 
+                 "text2audio", 
+                 "text2action",
+                 "image2action"
                  ], 
         required=True,
         help="Benchmark to evaluate."
@@ -343,18 +343,19 @@ def compute_metric_image2action(args):
     return score_dict
 
 def compute_metric(args):
-    if args.benchmark == "mixeval_x_text2image":
+    if args.benchmark == "text2image":
         compute_metric_text2image(args)
-    elif args.benchmark == "mixeval_x_text2video":
+    elif args.benchmark == "text2video":
         raise NotImplementedError("Benchmark not implemented yet.")
-    elif args.benchmark == "mixeval_x_text2audio":
+    elif args.benchmark == "text2audio":
         raise NotImplementedError("Benchmark not implemented yet.")
-    elif args.benchmark == "mixeval_x_text2action":
+    elif args.benchmark == "text2action":
         compute_metric_text2action(args)
-    elif args.benchmark == "mixeval_x_image2action":
+    elif args.benchmark == "image2action":
         compute_metric_image2action(args)
     else:
-        raise ValueError(f"Invalid benchmark: {args.benchmark}")
+        raise ValueError(f"Invalid benchmark: {args.benchmark}, please choose from "
+                         "text2image, text2video, text2audio, text2action, image2action.")
             
 
 if __name__ == '__main__':

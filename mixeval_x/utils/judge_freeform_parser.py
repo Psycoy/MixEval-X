@@ -34,11 +34,11 @@ class ChatGPTJudgeCloseendFreeform:
     def format_prompts(self, inputs):
         prompt, gold_ans, response = inputs
         gold_ans = '; '.join([f"<answer {i+1}> {ans}" for i, ans in enumerate(gold_ans)])
-        if self.args.benchmark in ['mixeval_x_image2text_close', 'mixeval_x_image2text_close_hard']:
+        if self.args.benchmark in ['image2text', 'image2text_hard']:
             formated = image2text_gpt_judge_for_closeended_freeform(prompt, gold_ans, response)
-        elif self.args.benchmark in ['mixeval_x_audio2text_close', 'mixeval_x_audio2text_close_hard']:
+        elif self.args.benchmark in ['audio2text', 'audio2text_hard']:
             formated = audio2text_gpt_judge_for_closeended_freeform(prompt, gold_ans, response)
-        elif self.args.benchmark in ['mixeval_x_video2text_close', 'mixeval_x_video2text_close_hard']:
+        elif self.args.benchmark in ['video2text', 'video2text_hard']:
             formated = video2text_gpt_judge_for_closeended_freeform(prompt, gold_ans, response)
         else:
             raise ValueError(f"Benchmark {self.args.benchmark} not supported in the closeended parser.")

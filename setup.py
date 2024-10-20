@@ -19,6 +19,7 @@ setup(
         'anthropic==0.28.0',
         'google-generativeai==0.5.4',
         'google-cloud-aiplatform==1.53.0',
+        'Pillow'
     ],
     package_data={
     },

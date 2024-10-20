@@ -4,24 +4,27 @@ As illustrated in the README.md, you can run our provided command after preparin
 
 ```
 python -m mixeval_x.compute_metrics_mmu \
-    --benchmark mixeval_x_image2text_close \
+    --benchmark image2text \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
         gemini_1_5_flash
 ```
 
-Here, the `--model_response_dir` specifies the parent directory of your model directory. Your model directory contains the model output files. The model directory name is your model name that will be specified by `--models_to_eval`. Generally, your prepared model output files should have a structure like this:
+Here, the `--model_response_dir` specifies the grandparent directory of your model directory. `--benchmark` specifies the parent directory name of your model directory. Your model directory contains the model output files. The model directory name is your model name that will be specified by `--models_to_eval`. Generally, your prepared model output files should have a structure like this:
 
 ```
     └── model_response_dir
-        └── your_model_name
+        │
+        └── benchmark
             │
-            ├── file1.jsonl
-            │
-            └── file2.jsonl
-            │
-            └── ...
+            └── your_model_name
+                │
+                ├── file1.jsonl
+                │
+                └── file2.jsonl
+                │
+                └── ...
 ```
 
 > The difference between model input (the benchmark data) and output (the model response file) is just the `"response"` field, i.e., each entry in your output file should keep all key-value pairs (including the 'id') of the input entry, with an additional `"response"` field representing the model's output.
@@ -37,11 +40,14 @@ The exact output structures and data formats are detailed below.
 ### Structure
 ```
     └── model_response_dir
-        └── your_model_name
+        │
+        └── benchmark
             │
-            ├── your_model_name_ff.jsonl
-            │
-            └── your_model_name_mp.jsonl
+            └── your_model_name
+                │
+                ├── your_model_name_ff.jsonl
+                │
+                └── your_model_name_mp.jsonl
 ```
 > Note that the Audio2Text benchmark doesn't have the multiple-choice subset, therefore the "`_mp`" file is not required.
 
@@ -86,9 +92,12 @@ Multiple-choice (`your_model_name_mp.jsonl`):
 Structure:
 ```
     └── model_response_dir
-        └── your_model_name
-            │
-            └── your_model_name_t2a.jsonl
+        │
+        └── benchmark
+            |
+            └── your_model_name
+                │
+                └── your_model_name_t2a.jsonl
 ```
 
 Output Data Format (`your_model_name_t2a.jsonl`):
@@ -110,9 +119,12 @@ Output Data Format (`your_model_name_t2a.jsonl`):
 Structure:
 ```
     └── model_response_dir
-        └── your_model_name
-            │
-            └── your_model_name_i2a.jsonl
+        │
+        └── benchmark
+            |
+            └── your_model_name
+                │
+                └── your_model_name_i2a.jsonl
 ```
 
 Output Data Format (`your_model_name_i2a.jsonl`):
@@ -137,9 +149,12 @@ Output Data Format (`your_model_name_i2a.jsonl`):
 Structure:
 ```
     └── model_response_dir
-        └── your_model_name
-            │
-            └── your_model_name_t2i.jsonl
+        │
+        └── benchmark
+            |
+            └── your_model_name
+                │
+                └── your_model_name_t2i.jsonl
 ```
 
 Output Data Format (`your_model_name_t2i.jsonl`):

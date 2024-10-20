@@ -35,9 +35,9 @@ class ChatGPTJudgeCloseendMultichoice:
         prompt, options, response = inputs
         option_letters = [chr(ord("A") + i) for i in range(len(options))]
         options = "\n".join([f"{option_letter}. {option}" for option_letter, option in zip(option_letters, options)])
-        if self.args.benchmark in ['mixeval_x_image2text_close', 'mixeval_x_image2text_close_hard']:
+        if self.args.benchmark in ['image2text', 'image2text_hard']:
             formated = image2text_gpt_judge_for_closeended_multiplechoice(prompt, options, response)
-        elif self.args.benchmark in ['mixeval_x_video2text_close', 'mixeval_x_video2text_close_hard']:
+        elif self.args.benchmark in ['video2text', 'video2text_hard']:
             formated = video2text_gpt_judge_for_closeended_multiplechoice(prompt, options, response)
         else:
             raise ValueError(f"Benchmark {self.args.benchmark} not supported in the closeended parser.")
