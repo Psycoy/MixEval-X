@@ -66,18 +66,38 @@ MODEL_PARSER_API=<your openai api key>
 
 Image2Text
 ```
+# Normal Version
 python -m mixeval_x.compute_metrics_mmu \
     --benchmark image2text \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
         gemini_1_5_flash
+
+# Hard Version
+```
+python -m mixeval_x.compute_metrics_mmu \
+    --benchmark image2text_hard \
+    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
+    --models_to_eval \
+        gemini_1_5_pro \
+        gemini_1_5_flash
+```
 ```
 
 Video2Text
 ```
+# Normal Version
 python -m mixeval_x.compute_metrics_mmu \
     --benchmark video2text \
+    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
+    --models_to_eval \
+        gemini_1_5_pro \
+        gemini_1_5_flash
+
+# Hard Version
+python -m mixeval_x.compute_metrics_mmu \
+    --benchmark video2text_hard \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
@@ -86,8 +106,17 @@ python -m mixeval_x.compute_metrics_mmu \
 
 Audio2Text
 ```
+# Normal Version
 python -m mixeval_x.compute_metrics_mmu \
     --benchmark audio2text \
+    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
+    --models_to_eval \
+        gemini_1_5_pro \
+        gemini_1_5_flash
+
+# Hard Version
+python -m mixeval_x.compute_metrics_mmu \
+    --benchmark audio2text_hard \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \

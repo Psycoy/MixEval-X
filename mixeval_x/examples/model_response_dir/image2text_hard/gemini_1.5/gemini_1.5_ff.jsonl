@@ -1,0 +1,3 @@
+{"problem_type": "free-form", "image_id": "1.jpg", "prompt": "Where are the people that are standing looking at?", "target": ["away"], "benchmark_name": "GQA", "response": "The kite", "id": "1"}
+{"problem_type": "free-form", "image_id": "2.jpg", "prompt": "is this an online museum?", "target": ["yes", "yes", "yes", "no", "yes", "yes", "yes", "the louvre", "yes", "yes"], "benchmark_name": "TextVQA", "response": "Not likely.", "id": "2"}
+{"problem_type": "free-form", "image_id": "3.jpg", "prompt": "On which side of the photo is the silk kite?", "target": ["right"], "benchmark_name": "GQA", "response": "The left side", "id": "3"}

@@ -1,0 +1,3 @@
+{"problem_type": "free-form", "audio_id": "1.wav", "prompt": "Is the frog making noise?", "target": ["yes"], "benchmark_name": "Clotho-AQA", "response": "Yes.", "id": "1"}
+{"problem_type": "free-form", "audio_id": "2.wav", "prompt": "Is someone blowing a whistle?", "target": ["no"], "benchmark_name": "Clotho-AQA", "response": "Yes", "id": "2"}
+{"problem_type": "free-form", "audio_id": "3.wav", "prompt": "What did you listen to after listening to the door closing?", "target": ["crowd babbling"], "benchmark_name": "DAQA", "response": "Silence", "id": "3"}
