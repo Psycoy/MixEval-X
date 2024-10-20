@@ -35,7 +35,7 @@
 <br>
 
 # This Repo
-This repo contains the grading code for MixEval-X, i.e., once you have prepared your model outputs according to the required format, you will be able to get the final scores with only a few steps.
+This repo contains the grading code for MixEval-X. Once you have prepared your model outputs according to the required format, you will be able to get the final scores in just a few steps.
 
 The MixEval-X data can be downloaded from the [huggingface](https://huggingface.co/datasets/MixEval/MixEval-X).
 
@@ -123,7 +123,7 @@ python -m mixeval_x.compute_metrics_mmu \
 
 Text2Action
 ```
-python -m mixeval_x.compute_metrics_mmgen \
+python -m mixeval_x.compute_metrics_mmg_agent \
     --benchmark text2action \
     --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
@@ -134,10 +134,11 @@ python -m mixeval_x.compute_metrics_mmgen \
 
 Image2Action
 ```
-python -m mixeval_x.compute_metrics_mmgen \
+python -m mixeval_x.compute_metrics_mmg_agent \
     --benchmark image2action \
-    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
+    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
+    --image2action_image_dir THE_PATH_TO_IMAGE2ACTION_INPUT_IMAGES \
     --models_to_eval \
         gemini_1_5_pro \
         gemini_1_5_flash
@@ -145,10 +146,10 @@ python -m mixeval_x.compute_metrics_mmgen \
 
 Text2Image
 ```
-python -m mixeval_x.compute_metrics_mmgen \
+python -m mixeval_x.compute_metrics_mmg_agent \
     --benchmark text2image \
-    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --judge_model "gpt-4o-2024-08-06" \
+    --model_response_dir THE_PATH_TO_MODEL_OUTPUT_FOLDER \
     --models_to_eval \
         gemini_1_5_pro \
         gemini_1_5_flash

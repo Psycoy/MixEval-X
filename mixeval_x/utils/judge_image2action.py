@@ -27,7 +27,10 @@ class ChatGPTJudgeImage2Action:
         
         self.FORMAT_MAXRETRY = 10
         
-        self.example_image = self.encode_image(args.image2action_example_image_path)
+        image2action_example_image_path = os.path.join(args.image2action_image_dir, 'example_1.jpg')
+        if not os.path.exists(image2action_example_image_path):
+            raise ValueError(f"Example image: 'example_1.jpg' for image2action grading not found in the image directory: {args.image2action_image_dir}. Please use the official image directory for Image2Action.")
+        self.example_image = self.encode_image(image2action_example_image_path)
         
         load_dotenv()
         self.client = OpenAI(

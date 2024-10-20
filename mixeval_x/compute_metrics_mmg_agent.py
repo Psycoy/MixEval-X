@@ -49,12 +49,6 @@ def parse_args():
         help="Path to the images of image2action data."
         )
     parser.add_argument(
-        "--image2action_example_image_path", 
-        type=str, 
-        default="mixeval_x/utils/misc/example_image.jpg", 
-        help="Path to the example image of the image2action split."
-        )
-    parser.add_argument(
         "--judge_model",
         type=str, 
         default="gpt-4o", 
