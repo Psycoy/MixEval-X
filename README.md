@@ -1,7 +1,7 @@
 <p align="center" width="100%">
 <img src="resources/imgs/header.png"  width="100%" height="100%">
 </p>
-<p align="center"><a href="https://mixeval-x.github.io/">🚀 Project Page</a> | <a href="https://huggingface.co/datasets/MixEval/MixEval-X">🤗 HF Dataset</a> | <a href="https://arxiv.org/abs/2410.13754">📜 arXiv</a> | <a href="https://mixeval-x.github.io/#leaderboard">🏆 Leaderboard</a> | <a href="https://beneficial-chips-08e.notion.site/Don-t-Build-Random-Evals-Principles-for-General-Purpose-Model-Evaluation-bd5a85ba10f447bc9ac560050f67270b">📝 blog</a> | <a href="https://huggingface.co/papers/2410.13754">🤗 HF Paper</a> | <a href="https://x.com/NiJinjie/status/1798182749049852411">𝕏 Twitter</a></p>
+<p align="center"><a href="https://mixeval-x.github.io/">🚀 Project Page</a> | <a href="https://huggingface.co/datasets/MixEval/MixEval-X">🤗 HF Dataset</a> | <a href="https://arxiv.org/abs/2410.13754">📜 arXiv</a> | <a href="https://mixeval-x.github.io/#leaderboard">🏆 Leaderboard</a> | <a href="https://beneficial-chips-08e.notion.site/Don-t-Build-Random-Evals-Principles-for-General-Purpose-Model-Evaluation-bd5a85ba10f447bc9ac560050f67270b">📝 blog</a> | <a href="https://huggingface.co/papers/2410.13754">🤗 HF Paper</a> | <a href="https://x.com/NiJinjie/status/1848053078978957707">𝕏 Twitter</a></p>
 </p>
 
 ---
