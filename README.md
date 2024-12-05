@@ -169,6 +169,10 @@ python -m mixeval_x.compute_metrics_mmg_agent \
 
 <br>
 
+We thank Graham Neubig, Yuntian Deng, Jason Phang, Piotr Nawrot, Luca Soldaini, Guanzhi Wang, Qinghong Lin for insightful discussions and pointers; we thank Fanyi Pu for his great effort in integrating the evaluation protocols.
+
+<br>
+
 # 🦾 Contribute
 
 Feel free to hit the ⭐**star** button or 🦾**contribute**! We review new issues and PRs regularly and will acknowledge your contributions!
