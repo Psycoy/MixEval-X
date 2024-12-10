@@ -22,7 +22,7 @@
 
 # ⚡ News
 
-[2024-12-10] [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main) now supports running model evaluations on MixEval-X. You can run MixEval-X MMU tasks for your own models with one command at [here](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mix_evals)! (feel free to use your own code if you think it's easier)
+[2024-12-10] [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main) now supports running model evaluations on MixEval-X. You can run MixEval-X MMU tasks for your own models with one command [here](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mix_evals)! (feel free to use your own code if you think it's easier)
 
 [2024-10-20] MixEval-X is released! Checkout the Paper and Leaderboard to learn more about this real-world any-to-any benchmark!🌟
 
